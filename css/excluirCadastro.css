@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ background-color:  #7FE2F8;
+ align-items: center;
+   
+}
+#logo{
+    width: 50%;
+position: absolute;
+height: 20%;
+left: 26%;
+top: 5%;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80px;
+text-align: center;
+color: #060606;
+z-index: 1;
+}
+h2{
+    position: absolute;
+    font-size: 24px;
+    color: black;
+    align-items: center;
+    left: 42%;
+    top: 25%;
+    z-index: 1;
+}
+label{
+    position: absolute;
+    left: 32%;
+    font-size: 25px solid;
+    color: #715ebd;
+    font-weight: bolder;
+    top: 40%;
+    z-index: 1;
+}
+input{
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    font-size: 14px;
+    border-radius: 5px;
+    top: auto;
+    left: 53%;
+    top: 47%;
+    z-index: 1;
+}
+#btDelete{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 64%;
+    top:47.4%;
+    background:#715ebd;
+    border-radius: 30px;
+    font-family: "Mukta Vaani","Arial";
+color: aliceblue;
+font-weight: bold;
+font-size: small;
+text-align: center;
+border: 2px solid black;
+z-index: 1;
+}
+#btDelete:hover{
+    opacity: 75%;
+    color: black;
+}
+#lemonp{
+    position: absolute;
+    margin-top:15px;
+    z-index: 0;
+    top: 75%;
+    left: 14%;
+}
+#lemonp2{
+    position: absolute;
+    top: 25%;
+    right:14%;
+    z-index: 0;
+}
+#lemonp3{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    z-index: 0;
+    top: 30%;
+}
+#lemonp4{
+    right: 6%;
+    position: absolute;
+    top:80%;
+    z-index: 0;
+}

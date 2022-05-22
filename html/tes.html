@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 
+    Teste do método window.prompt() 
+</title> 
+<meta charset="utf-8">
+</head> 
+<body> 
+    <p>Vamos adicionar novos itens:</p> 
+    <select name="itens" id="itens" size="6" style="width: 150px">
+        <option>Camiseta</option>
+        <option>Calça</option>
+        <option>Sapato</option>
+        <option>Bolsa</option>
+    </select>
+    <br/>
+    <input type="button" value="Adicionar item" onclick=adicionarItem()>
+
+<script>
+    function adicionarItem(){
+        var item = prompt("Qual objeto você deseja incluir na lista?", "Adicione um novo objeto");
+        if (item == null || item == "") {
+            alert("O uso do prompt foi cancelado!");
+        } else {
+            var itens = document.getElementById("itens");
+            var option = document.createElement("option");
+            option.text = item;
+            itens.add(option, itens[0]);
+        }
+    }
+</script>
+</body> 
+</html> 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/4ParkingCadastro.css">
+    <title>4Parking - Cadastro</title>
+    <script type="text/javascript" src="../js/data.js"></script>
+    <script type="text/javascript" src="../js/cpf.js"></script>
+</head>
+<body>
+    <p>
+        <div id="logoCadastro">4Parking</div>
+        <div id="cadastroText">Cadastre-se grátis e comece a curtir.</div>
+        <button id="cadastreGmail"><link rel="stylesheet" href="www.gmail.com.br">Cadastre-se com Gmail</button> 
+    </p>
+    <p id="line">
+        _____Ou______
+    </p>
+    <form id="formularioUsuario" action="../php/cadastrar.php" method="POST">
+        <div id="emailtxt">Qual é teu e-mail em?</div>
+        <input wm-folder id="criarEmailUsuario" name="criarEmailUsuario" type="text" placeholder="Insira seu e-mail." required ><br><br>
+        <div id="confirmarEmailtxt">Confirma teu e-mail ai.</div>
+        <input wm-folder id="emailUsuarioConfirme" name="emailUsuarioConfirme" type="text" placeholder="Insira seu e-mail novamente." required ><br><br>
+        <div id="criarSenhatxt">Cria a senha aí</div>
+        <input wm-folder id="criarSenhaUsuario" name="criarSenhaUsuario" type="password" placeholder="Crie uma senha." required><br><br>
+        <div id="confirmarSenhatxt">Confirma a senha.</div>
+        <input wm-folder id="senhaUsuarioConfirme" name="senhaUsuarioConfirme" type="password" placeholder="Confirme sua senha."required ><br><br>
+        <div id="cpftxt">Qual teu CPF?</div>
+        <input type="text" id="cpfUsuario" name="cpfUsuario" maxlength="14" required onkeypress="carCpf(this);" 
+        placeholder="999.999.999-99" /><br><br>
+       
+        <div id="qualTeuNometxt">Qual teu nome?</div>
+        <input wm-folder id="nomeUsuario" name="nomeUsuario" type="text" placeholder="Insira seu nome" required>
+        <div id="qualTeuNometxtB">Isso será exibido em seu perfil.</div><br>
+        <div id="qualSobrenometxt" >Qual teu sobrenome?</div>
+        <input wm-folder id="sobrenomeUsuario" name="sobrenomeUsuario" type="text" placeholder="Insira seu sobrenome."required ><br><br>
+        <div id="qualTeuEndereco">Tu mora onde?</div>
+        <input wm´folder id="enderecoUsuario" name="enderecoUsuario" type="text" placeholder="Insira seu endereço."required ><br><br>
+        <div id="telefonetxt">Qual teu número de telefone?</div>
+        <input wm-folder id="telefoneUsuario" name="telefoneUsuario" type="tel" placeholder="Ex: 81 98888-5555." required><br><br>
+        <div id="">Tu nasceu quando?</div>
+        <input type="text" id="data" name="data" maxlength="10" onkeypress="barraNascimento(this);" 
+        placeholder="05/11/2001" required /><br><br>
+       
+        <div id="genero">Qual teu gênero?</div>
+        <div id="mtxt">Masculino</div>
+        <input id="masculino" name="masculino" type="radio" value="Masculino"></input><br>
+        <div id="ftxt">Feminino</div>
+        <input id="feminino" name="feminino" type="radio" value="Feminino"></input><br>
+        <div id="btxt">Não binario</div>
+        <input id="naoBinario" name="naoBinario" type="radio" value="NBinario"></input><br>
+        <div id="ntxt">Prefiro não dizer</div>
+        <input id="naoDizer" name="naoDizer" type="radio" value="pfndz"></input><br><br>
+       <button id="seguirBt">Seguir</button>
+    
+    </form>
+    
+    <p><img  src ="../img/lemon-style-azul-gg.png" id="lemonG">
+        <img  src ="../img/lemon-style-azul-gg.png" id="lemonG1">
+    <img  src ="../img/lemon-style-azul-pp.png" id="lemonpp">
+    <p><img  src ="../img/lemon-style-azul-pp.png" id="lemonpp1"></p>
+     <script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

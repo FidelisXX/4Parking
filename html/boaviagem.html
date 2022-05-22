@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bv.css" >
+    <script type="text/javascript" src="../js/pagamentos.js"></script>
+   
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXqq8pbVTN5T7kHCcFDDgbfuELvBnoAVs&callback=initMap">
+</script>
+
+    <title>Estacionamentos Proximos</title>
+</head>
+<body>
+
+    <p>
+        <div id="logoCadastro">4Parking</div>
+    </p>
+
+    <form class="molde">
+        <b><div>Auto Park Estacionamentos</div>
+        <div>Valor R$ 9,00</div>
+        <div>4 horas </div>
+        <div>+ R$ 2,00 fração de horas.</div><br></b>
+
+    <button id="btConfirme" onclick="pagamentos()">Confirmar</button>
+    
+    <form> 
+        <div id="map" style="width: 800px; height:500px;"></div>
+    </form>
+    
+    <script>
+    function pagamentos()
+    {
+   
+    var cartao=prompt("Número do cartão: ");
+    var nome=prompt("Nome no cartão: ");
+   var date=prompt("Data de validade:");
+   var cvv=prompt("CVV: ");
+   if(cartao=="") {
+       alert("Algum campo está vazio");
+   }else{
+       alert("compra efetuada com sucesso! Comprovante enviado para seu e-mail cadastraddo");
+   }
+    
+    }
+    </script>
+     <label>latitude: <span id="lat"></span> </label><br>
+     <label>longitude: <span id="lon"></span></label>
+<script type=" text/javascript">
+    var lat;
+var long;
+
+function getLocation() {
+    if(!navigator.geolocation)
+    return null;
+    navigator.geolocation.getCurrentPosition((pos)=>{
+        lat=document.getElementById("lat").innerText = pos.coords.latitude;
+        long=document.getElementById("lon").innerText = pos.coords.longitude;
+        initMap();
+    });
+}
+
+function initMap(){
+    const uluru = { lat: lat, lng: long};
+    map = new google.maps.Map(document.getElementById("map"), {
+        center:uluru,
+        zoom: 16,
+      });
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+    getLocation();
+
+</script>
+
+</form>
+
+  <a href="https://www.google.com.br/maps/dir//auto+park+boa+viagem/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x7ab1fc9fffbcad1:0xce6b1e452b09068?sa=X&ved=2ahUKEwje3eahxqv0AhUdILkGHZ_FDiYQ9Rd6BAg4EAM">
+     <!---- <img src="../img/85eb90e0-cf12-4543-954d-937f1cb04d69_1.png"id="img" width="700px" height="420px"></a> -->
+     <a id="icon" href=""><i class="fas fa-map-marked-alt"></i></a>    
+   
+     
+     <script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen  {
+    html, body{
+        background: aliceblue;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        min-width:768px;
+        max-width: 1024px;
+        min-height: 768px;
+        justify-content: center;
+        align-items: center;
+    }
+
+#logoCadastro {
+    width: 50%;
+position: absolute;
+height: 20%;
+left: 26%;
+top: 20%;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80px;
+text-align: center;
+color: #060606;
+z-index: 1;
+}
+#formularioCarro{
+position: absolute;
+width: 20%;
+height: auto;
+left: 42%;
+top: 45%;
+color:#006494;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+z-index: 1;
+}
+input{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: auto;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: small;
+    text-align: justify;
+    z-index: 1;
+}
+
+#nReceberCheck{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    left: 0;
+    top:115%;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    z-index: 2;
+}
+#nRecebermsg{
+    position: absolute;
+width: 200%;
+height: auto;
+left: 10%;
+top: 116%;
+color: #006494;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 30px;
+z-index: 1;
+}
+#compartilharCheck{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    left: 0;
+    top:123.5%;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    margin-top: auto;
+    z-index: 2;
+}
+#compartilharDados{
+    position: absolute;
+    width: 420%;
+    height: auto;
+    left: 10%;
+    top: 124%;
+    color:#006494;
+    font-family: "Mukta Vaani";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 30px;
+    z-index: 1;
+}
+#termos{
+    position: absolute;
+    width: 200%;
+    height: auto;
+    left: 10%;
+    top: 132%;
+    color:#006494 ;
+    font-family: "Mukta Vaani";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 30px;
+    z-index: 1;
+}
+#termosCheck{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    left: 0;
+    top:131%;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    z-index: 2;
+}
+#roxotxt{
+    color:#13293D;
+    z-index: 1;
+}
+#seguirBt{
+    position: absolute;
+    width: 65%;
+    height: 10%;
+    left: 20%;
+    top: 180%;
+    background:#7FE2F8;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color:azure;
+    border: 1px solid #699099;
+    z-index: 1;
+   
+}
+#seguirBt:hover{
+    background: #715ebd;
+    border: 3px solid #7FE2F8;
+}
+#lemonpp{
+    position: absolute;
+    margin-top:15px;
+    z-index: 0;
+    top: 20%;
+    left: 14%;
+}
+#lemonpp1{
+    position: absolute;
+    top: 110%;
+    right:14%;
+    z-index: 0;
+}
+#lemonG{
+    position: absolute;
+    left: 6%;
+    z-index: 0;
+    top: 100%;
+}
+#lemonG1{
+    right: 6%;
+    position: absolute;
+    top:10%;
+    z-index: 0;
+}}

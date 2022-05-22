@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/parceiroCadastro.css">
+    <title>4Parking - Cadastro Parceiro</title>
+</head>
+<body>
+    <p>
+        <div id="logoCadastro">4Parking</div>
+    </p>
+    
+    <div id="boasVindas">Olá quer ser nosso parceiro? <br> Como tu já esta cadastrado, diz ai teu endereço novamente e a forma de receber pagamento,<br>
+        que já te colocamos em nosso radar.</div><br>
+
+        <form id="formularioParceiro" action="../php/cadastrarLocal.php" method="get">
+            <div>
+                   <label for="bairro_parceiro">Bairro</label><br><input type="text" id="bairro_parceiro" name="bairro_parceiro" placeholder="Derby"/><br><br>
+         </div>
+         <div>
+                     <label for="rua_parceiro">Rua</label><br><input type="text" id="rua_parceiro" name="rua_parceiro" placeholder="Rua Amália"/><br><br>
+         </div>
+               <div>
+                   <label for ="numero_parceiro">Número</label><br><input type="text" id="numero_parceiro" name="numero_parceiro" placeholder="3254"/><br><br>
+               </div>
+               <div>
+                   <label for ="lote_parceiro">Lote</label><br><input type="text" id="lote_parceiro" name="lote_parceiro" placeholder="10"/><br><br>
+               </div>
+               
+                 <div>
+                     <div>Banco</div>
+                    <select name="banco">
+                        <option value="">Selecione o banco</option>
+                    <option value="it">Itaú</option>
+                    <option value="br">Bradesco</option>
+                    <option value="st">Santander</option> 
+                    <option value="brasil">Banco do Brasil</option> 
+                    </select>
+                 </div><br>
+
+               <div>
+                <label>Agencia:</label><input type ="text" id="agencia" name="agencia" placeholder="Número da Agência">
+            </div><br>
+               <div>
+                   <label>Conta:</label><input type ="text" id="conta" name="conta" placeholder="Número da Conta">
+               </div><br>
+               <div>
+                <label>Tipo:</label><br><br>
+                <label id="correntetxt">Corrente</label><input type ="checkbox" id="corrente" name="corrente">
+                <label id="poupancatxt">Poupança</label><input type ="checkbox" id="poupanca" name="poupanca"><br>
+            </div><br>
+
+                     <div class="button">
+                           <button id="btCadastrar" type="submit">Cadastrar</button>
+
+</body>
+</html>
