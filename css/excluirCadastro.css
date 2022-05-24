@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
- background-color:  #7FE2F8;
+ background-color:  #006494;
  align-items: center;
    
 }
@@ -32,9 +32,9 @@ h2{
 }
 label{
     position: absolute;
-    left: 32%;
+    left: 35%;
     font-size: 25px solid;
-    color: #715ebd;
+    color: #13293D;
     font-weight: bolder;
     top: 40%;
     z-index: 1;
@@ -46,7 +46,7 @@ input{
     font-size: 14px;
     border-radius: 5px;
     top: auto;
-    left: 53%;
+    left: 47%;
     top: 47%;
     z-index: 1;
 }
@@ -54,21 +54,22 @@ input{
     position: absolute;
     width: auto;
     height: auto;
-    left: 64%;
+    left: 58%;
     top:47.4%;
-    background:#715ebd;
+    background:#13293D;
     border-radius: 30px;
     font-family: "Mukta Vaani","Arial";
 color: aliceblue;
 font-weight: bold;
-font-size: small;
+font-size: medium;
 text-align: center;
 border: 2px solid black;
 z-index: 1;
 }
 #btDelete:hover{
     opacity: 75%;
-    color: black;
+    color: aqua;
+    border: solid 3px aliceblue;
 }
 #lemonp{
     position: absolute;

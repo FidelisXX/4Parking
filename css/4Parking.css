@@ -157,7 +157,7 @@ background: #FFFBFB;
 border-radius: 30px;
 box-shadow: 1px;
 font-family: "Mukta Vaani","Arial";
-color:#7FE2F8 ;
+color: #006494;
 font-weight: bold;
 font-size: 14px auto;
 text-align:center;
@@ -177,6 +177,7 @@ z-index: 1;
     padding: auto;
     width: 100%;
 }
+/*posicionamento da barra final no rodapé*/
 .rodape{
     background-color: black;
     position: absolute;
@@ -185,7 +186,6 @@ width: 100%;
 height: auto;
 display: flex;
 top: 110%;
-
 right: auto;
 margin-bottom: -10px;
 left: auto;
@@ -267,6 +267,8 @@ footer div nav a{
 nav a:hover{
     color: #715ebd;
 }
+
+/*Posicionamento da imagens de fundo*/
 #lemonp{
     position: absolute;
     margin-top:15px;

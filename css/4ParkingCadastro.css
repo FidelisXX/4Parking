@@ -5,7 +5,10 @@
      }
     
     body{
-        background-color: azure;
+    background: #7FE2F8;
+    }
+    form{
+        padding: 1%;
     }
     #logoCadastro{
      width: 50%;
@@ -31,18 +34,18 @@
     font-family: "Mukta Vaani";
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 50px;
     text-align: center;
-    color: #816464;
+    color: #13293D;
     }
     #cadastreGmail{
         position: absolute;
     width: auto;
     height: auto;
-    left: 45%;
+    left: 47%;
     top: 34%;
-    background: #7FE2F8;
+    background: #006494;
     border-radius: 30px;
     font-family: "Mukta Vaani","Arial";
     color: aliceblue ;
@@ -52,8 +55,8 @@
     text-align: center;
     }
     #cadastreGmail:hover{
-        background: #715ebd;
-    border: 3px solid #7FE2F8;
+        background: #13293D;
+    border: 3px solid #006494;
     }
     #line{
         position: absolute;
@@ -67,7 +70,7 @@
     
     #formularioUsuario{
         position: absolute;
-        color: #715ebd;
+        color: #13293D;
         font-family: "Mukta Vaani";
         font-style: normal;
         font-weight: bold;
@@ -84,11 +87,11 @@
         font-size: small;
         right: auto;
         width: 50%;
-        height: 10%;
+        height: 8%;
         left: auto;
     border-radius: 5px;
     box-shadow: 1px;
-    border: 1px solid #7FE2F8;
+    border: 1px solid #006494;
         box-sizing: border-box;
         z-index: 2;
     
@@ -105,7 +108,7 @@
         left: 0;
         top: auto;
         z-index: 2;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
     box-shadow: 1px;
@@ -119,7 +122,7 @@
         left: 6%;
         top: auto;
         z-index: 2;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
     box-shadow: 1px;
@@ -133,7 +136,7 @@
         left: 12%;
         top: auto;
         z-index: 4;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
     box-shadow: 1px;
@@ -159,11 +162,11 @@
         left: 0;
         top: auto;
         z-index: 4;
-        border: 2px solid #7FE2F8;
+        border: 2px solid #006494;
         box-sizing: border-box;
     }
     #mtxt{
-        color:#699099;
+        color:#006494;
         position: absolute;
         font-size: medium;
     width: auto;
@@ -179,12 +182,12 @@
         left: 0;
         top: auto;
         z-index: 4;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
     }
     #ftxt{
         visibility:visible;
-        color:#699099;
+        color: #006494;
         position: absolute;
         font-size: medium;
     width: auto;
@@ -200,12 +203,12 @@
         left: 0;
         top: auto;
         z-index: 4;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
     }
     #btxt{
         visibility:visible;
-        color:#699099;
+        color: #006494;
         position: absolute;
         font-size: medium;
     width: auto;
@@ -221,12 +224,12 @@
         left:0;
         top: auto;
         z-index: 4;
-        border: 1px solid #7FE2F8;
+        border: 1px solid #006494;
         box-sizing: border-box;
     }
     #ntxt{
         visibility:visible;
-        color:#699099;
+        color: #006494;
         position: absolute;
         font-size: medium;
     width: auto;
@@ -239,9 +242,9 @@
         position: absolute;
         width: 20%;
         height: 12%;
-        left: 14%;
+        left: 17%;
         top: auto;
-        background:#7FE2F8;
+        background:#006494;
         border-radius: 30px;
         font-family: "Mukta Vaani","Arial";
     color: aliceblue;
@@ -251,34 +254,8 @@
     border: 2px solid #699099;
     }
     #seguirBt:hover{
-        background: #715ebd;
-    border: 3px solid #7FE2F8;
-    }
-    #lemonpp{
-        position: absolute;
-        margin-top:15px;
-        z-index: 0;
-        top: 130%;
-        left: 14%;
-    }
-    #lemonpp1{
-        position: absolute;
-        top: 80%;
-        right:14%;
-        z-index: 0;
-    }
-    #lemonG{
-        position: absolute;
-        top: 12%;
-        left: 6%;
-        z-index: 0;
-        top: 30%;
-    }
-    #lemonG1{
-        right: 6%;
-        position: absolute;
-        top:160%;
-        z-index: 0;
+        background: #13293D;
+    border: 3px solid #006494;
     }
     .footer{
         position: absolute;

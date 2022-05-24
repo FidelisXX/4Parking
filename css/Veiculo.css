@@ -145,19 +145,20 @@ z-index: 1;
     height: 10%;
     left: 20%;
     top: 180%;
-    background:#7FE2F8;
+    background: #006494;
     border-radius: 30px;
     text-align: center;
     font-size: 14px;
     font-weight: bolder;
     color:azure;
-    border: 1px solid #699099;
+    border: 2px solid #13293D;
     z-index: 1;
    
 }
 #seguirBt:hover{
-    background: #715ebd;
-    border: 3px solid #7FE2F8;
+    background: #13293D;
+    border: 2px solid #006494;
+    color: aliceblue;
 }
 #lemonpp{
     position: absolute;

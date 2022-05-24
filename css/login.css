@@ -106,7 +106,7 @@ input{
         opacity: 85%;
         color: black;
         background-color: #006494;
-        border: 4px solid azure;
+        border: 2px solid #13293D;
     }
     #entrarBt{
         position: absolute;
@@ -119,7 +119,7 @@ input{
     border-radius: 30px;
     text-align: center;
     color: azure;
-    border: 4px solid #006494;
+    border: 2px solid #006494;
     }
     #lemonp{
         position: absolute;

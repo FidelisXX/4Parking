@@ -11,16 +11,7 @@
         right: 0;
         flex-wrap: wrap;
     }
-    /*header{
-        background-color: rgb(255, 255, 255);
-    position: absolute;
-margin: 0;
-width: auto;
-height: 7%;
-top: 0;
-display: flex;
-z-index: 1;
-    }*/
+
 header{
     background-color: black;
     position: absolute;
@@ -103,27 +94,13 @@ i:hover{
     color: gray;
 }
 
-/*nav a{
-    margin: px;
-    width: 100%;
-    height: auto;
-    word-spacing: 20px;
-    top: auto;
-    text-decoration: none;
-    color: aliceblue;
-    text-align-last: right;
-    font-size: 12px;
-    align-content: space-between;
-    bottom: 1px;
-
-}*/
 nav a:hover{
     color: #715ebd;
 }
 
     #popUp{
         top: 8%;
-        background-color: #7FE2F8;
+        background-color: #006494;
         text-decoration: none;
     position: absolute;
     top: 15%;
@@ -144,6 +121,7 @@ nav a:hover{
         left: 6%;
         position: absolute;
         margin: 2%;
+        color: aliceblue;
     }
     #localDestino{
         position: relative;

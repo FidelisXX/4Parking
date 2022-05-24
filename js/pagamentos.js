@@ -6,7 +6,7 @@ function pagamentosCredito()
      for (i=0; i<dadosPagamentos.length;i++){
        dadosPagamentos[i=0]
      }
-     var cartao = prompt('Número do cartão: ', '5487 96 8746 4987');
+     var cartao = prompt('Número do cartão: ', '5487 9623 8746 4987');
     var nome=prompt("Nome no cartão: ");
    var date=prompt("Data de validade:");
    var cvv=prompt("CVV: ");

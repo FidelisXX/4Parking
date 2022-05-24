@@ -3,7 +3,7 @@
  }
 
 body{
-    background-color: azure;
+    background: #7FE2F8;
     
 }
 #logoCadastro {
@@ -22,19 +22,19 @@ color: #060606;
 }
 #boasVindas{
     position: absolute;
-    font-size: 18px;
-    color: #7FE2F8;
+    font-size: 20px;
+    color: #006494;
     text-align-last: center;
     top: 24%;
-    left: 26%;
+    left: 29%;
 }
 #formularioParceiro{
     position: absolute;
 width: 20%;
 height: auto;
-left: 42%;
+left: 41%;
 top: 45%;
-color:#715ebd;
+color: #13293D;
 font-family: "Mukta Vaani";
 font-style: normal;
 font-weight: bold;
@@ -44,29 +44,41 @@ line-height: 30px;
 input{
     position: absolute;
     width: 100%;
-    height: 4%;
+    height: 5%;
     left: 0;
     top: auto;
     z-index: 4;
-    border: 1px solid #7FE2F8;
+    border: 1px solid #006494;
     box-sizing: border-box;
     border-radius: 5px;
     font-size: small;
     text-align: justify;
 }
+select{
+    background: #006494;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 12px;
+    border-radius: 5px;
+}
+option{
+    background: #13293D;
+    color: aliceblue;
+    border: solid 2px #006494;
+}
 #corrente{
     position: absolute;
-    left: 29%;
-    width: 6%;
-    height: 6%;
-    top: 86.8%;
+    left: 26%;
+    width: 8%;
+    height: 8%;
+    top: 85.8%;
 }
 #poupanca{
     position: absolute;
-    width: 6%;
-    height: 6%;
-    left: 74%;
-    top: 86.8%;
+    width: 8%;
+    height: 8%;
+    left: 26%;
+    top: 91.8%;
 }
 #correntetxt{
     position: absolute;
@@ -79,18 +91,18 @@ input{
 #poupancatxt{
     position: absolute;
     font-size: 18px;
-    left: 44%;
+    left: auto;
     width: auto;
     height: auto;
-    top: 88%;
+    top: 94%;
 }
 #btCadastrar{
     position: absolute;
-    width: 35%;
-    height: 4%;
-    left: 33%;
+    width: auto;
+    height: 5%;
+    left: 37%;
     top:auto;
-    background:#715ebd;
+    background:#006494;
     border-radius: 30px;
     font-family: "Mukta Vaani","Arial";
 color: aliceblue;
@@ -102,5 +114,6 @@ align-items: center;
 }
 #btCadastrar:hover{
     opacity: 75%;
-    color: black;
+    background: #13293D;
+    color: aliceblue;
 }

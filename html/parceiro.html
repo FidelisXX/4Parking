@@ -17,34 +17,43 @@
 
         <form id="formularioParceiro" action="../php/cadastrarLocal.php" method="get">
             <div>
-                   <label for="bairro_parceiro">Bairro</label><br><input type="text" id="bairro_parceiro" name="bairro_parceiro" placeholder="Derby"/><br><br>
+                   <label for="bairro_parceiro">Bairro</label><br><input type="text" id="bairro_parceiro" name="bairro_parceiro" placeholder="Derby" required/><br><br>
          </div>
          <div>
-                     <label for="rua_parceiro">Rua</label><br><input type="text" id="rua_parceiro" name="rua_parceiro" placeholder="Rua Amália"/><br><br>
+                     <label for="rua_parceiro">Rua</label><br><input type="text" id="rua_parceiro" name="rua_parceiro" placeholder="Rua Amália" required/><br><br>
          </div>
                <div>
-                   <label for ="numero_parceiro">Número</label><br><input type="text" id="numero_parceiro" name="numero_parceiro" placeholder="3254"/><br><br>
+                   <label for ="numero_parceiro">Número</label><br><input type="text" id="numero_parceiro" name="numero_parceiro" placeholder="3254" required/><br><br>
                </div>
                <div>
-                   <label for ="lote_parceiro">Lote</label><br><input type="text" id="lote_parceiro" name="lote_parceiro" placeholder="10"/><br><br>
+                   <label for ="lote_parceiro">Lote</label><br><input type="text" id="lote_parceiro" name="lote_parceiro" placeholder="10" required/><br><br>
                </div>
                
                  <div>
                      <div>Banco</div>
-                    <select name="banco">
+                    <select name="banco" required>
                         <option value="">Selecione o banco</option>
                     <option value="it">Itaú</option>
                     <option value="br">Bradesco</option>
                     <option value="st">Santander</option> 
                     <option value="brasil">Banco do Brasil</option> 
+                    <option value="Nubank">Nubank</option>
+                    <option value="Mercado">Mercado Pago</option>
+                    <option value="Inter">Inter</option>
+                    <option value="Caixa">Caixa</option>
+                    <option value="BTG">BTG Pactual</option>
+                    <option value="Next">Next</option>
+                    <option value="Pan">Pan</option>
+                    <option value="Pagseguro">Pagbank</option>
+                    <option value="Pagseguro">Outros</option>
                     </select>
                  </div><br>
 
                <div>
-                <label>Agencia:</label><input type ="text" id="agencia" name="agencia" placeholder="Número da Agência">
+                <label>Agencia:</label><input type ="text" id="agencia" name="agencia" placeholder="Número da Agência" required>
             </div><br>
                <div>
-                   <label>Conta:</label><input type ="text" id="conta" name="conta" placeholder="Número da Conta">
+                   <label>Conta:</label><input type ="text" id="conta" name="conta" placeholder="Número da Conta" required>
                </div><br>
                <div>
                 <label>Tipo:</label><br><br>
