@@ -1,3 +1,10 @@
+@media screen {
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+     }
+
 body{
     background: #006494;
 }
@@ -7,6 +14,7 @@ div .buttons{
     position: absolute;
     top:20%;
 }
+
 button{
     position: relative;
     left: 45%;
@@ -18,4 +26,5 @@ button{
     justify-items: legacy;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #006494;
+}
 }

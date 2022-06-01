@@ -10,6 +10,18 @@
     <script type="text/javascript" src="../js/cpf.js"></script>
 </head>
 <body>
+    <!--Esse html fica responsável por armazenar todos os dados de usuário-->
+    <header class="barraSuperior">
+        <div id="logo"><a href="index.html">4Parking</a></div>
+        <nav id="indice">
+            <!--<a href="#" id="premium">Premium</a>-->
+            <a href="#" id="suporte">Suporte</a>
+            <a href="#" id="baixar">Baixar</a>
+            <a href="">|</a>
+            <!--<a href="cadastroUsu.html" id="cadastro">Cadastrar</a>-->
+            <a href="login.html" id="entrar">Entrar</a>
+        </nav>
+    </header>
     <p>
         <div id="logoCadastro">4Parking</div>
         <div id="cadastroText">Cadastre-se grátis e comece a curtir.</div>
@@ -30,7 +42,6 @@
         <div id="cpftxt">Qual teu CPF?</div>
         <input type="text" id="cpfUsuario" name="cpfUsuario" maxlength="14" required onkeypress="carCpf(this);" 
         placeholder="999.999.999-99" /><br><br>
-       
         <div id="qualTeuNometxt">Qual teu nome?</div>
         <input wm-folder id="nomeUsuario" name="nomeUsuario" type="text" placeholder="Insira seu nome" required>
         <div id="qualTeuNometxtB">Isso será exibido em seu perfil.</div><br>

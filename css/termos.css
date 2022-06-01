@@ -1,0 +1,22 @@
+html, body{
+    background: blue;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    color: white;
+}
+div ::-webkit-scrollbar{
+    border-radius: 8px;
+    background: aliceblue;
+}
+div ::-webkit-scrollbar-thumb{
+    background: greenyellow;
+    border-radius: 6px;
+}

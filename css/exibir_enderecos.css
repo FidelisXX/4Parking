@@ -1,4 +1,10 @@
 @media screen  {
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+     }
+     
     body{
         background: #7FE2F8;
         margin: 0;

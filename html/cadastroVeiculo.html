@@ -9,9 +9,21 @@
     <title>4Parking - Cadastre-se</title>
 </head>
 <body>
+    <header class="barraSuperior">
+        <div id="logo"><a href="index.html">4Parking</a></div>
+        <nav id="indice">
+            <!--<a href="#" id="premium">Premium</a>-->
+            <a href="#" id="suporte">Suporte</a>
+            <a href="#" id="baixar">Baixar</a>
+            <a href="">|</a>
+            <!--<a href="cadastroUsu.html" id="cadastro">Cadastrar</a>-->
+            <a href="login.html" id="entrar">Entrar</a>
+        </nav>
+    </header>
     <p>
     <div id="logoCadastro">4Parking</div>
 </p>
+<!--Essa tela tem objetivo de armezenar todos os dados de veículo, para manter no nosso banco-->
 <form class="formularioCarro" id="formularioCarro" action="../php/cadastrarVeiculo.php" method="post">
     <div id="qualPlacatxt">Qual a placa do teu carro?</div>
     <input class="preenchimento" type="text" id="placa" name="placa" maxlength="10" pattern="[A-Za-z]{3}-[Aa-Zz-0-9]{4}" onkeypress="tracoPlaca(this);" 
@@ -27,7 +39,7 @@
     <input id="nReceberCheck" type="checkbox">
     <div id="compartilharDados">Compartilhar meus dados pessoais com os provedores de conteúdo do 4Parking para fins de marketing.</div>
         <input id="compartilharCheck" type="checkbox">
-        <div id="termos">Eu concordo com os <a href="" id="roxotxt">Termos e Condições de uso do 4Parking.</a ></div>
+        <div id="termos">Eu concordo com os <a href="termos.html" id="roxotxt">Termos e Condições de uso do 4Parking.</a ></div>
         <input id="termosCheck" type="checkbox" required>
         <button id="seguirBt">Seguir</button>
 
