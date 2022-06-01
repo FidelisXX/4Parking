@@ -1,3 +1,14 @@
+@media screen {
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    } 
+
 #telaDebito{
     position: relative;
     height: auto;
@@ -18,4 +29,5 @@ input{
 }
 div{
     left: 30%;
+}
 }

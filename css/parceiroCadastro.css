@@ -1,6 +1,14 @@
-*{
-    box-sizing: border-box;
- }
+@media screen {
+    
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    } 
 
 body{
     background: #7FE2F8;
@@ -116,4 +124,5 @@ align-items: center;
     opacity: 75%;
     background: #13293D;
     color: aliceblue;
+}
 }

@@ -1,6 +1,14 @@
-*{
-    box-sizing: border-box;
-}
+@media screen {
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    }   
+
 body{
  background-color:  #006494;
  align-items: center;
@@ -96,4 +104,5 @@ z-index: 1;
     position: absolute;
     top:80%;
     z-index: 0;
+}
 }

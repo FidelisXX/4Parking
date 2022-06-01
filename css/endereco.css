@@ -1,3 +1,5 @@
+@media screen {
+    
 *{
 
     margin: 0;
@@ -71,4 +73,5 @@ input{
 #btCadastrar:hover{
     background: #13293D;
     border: 3px solid #006494;
+}
 }

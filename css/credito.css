@@ -1,3 +1,14 @@
+@media screen {
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    } 
+
 #telaCredito{
     position: relative;
     height: auto;
@@ -19,4 +30,5 @@ input{
 div{
     left: 30%;
     padding: 1%;
+}
 }
