@@ -1,0 +1,74 @@
+*{
+
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing: border-box;
+  
+}  
+body{
+    background-color: azure;
+    margin: 0;
+    min-width:768px;
+    max-width: 1024px;
+    min-height: 768px;
+    right: 0;
+}
+#logoCadastro {
+    width: 50%;
+position: absolute;
+height: 20%;
+left: 27%;
+top: 20%;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80px;
+text-align: center;
+color: #060606;
+}
+.formularioEndereco{
+    position: absolute;
+        color: #715ebd;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 50%;
+        height: auto;
+        left: 40%;
+        top: 50%;
+}
+input{
+    font-size: 16px;
+        right: auto;
+        width: 50%;
+        height: auto;
+        left: auto;
+    border-radius: 5px;
+    box-shadow: 1px;
+    border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+}
+#btCadastrar{
+    position: absolute;
+    width: 25%;
+    height: 6%;
+    left: 13%;
+    top: 100%;
+    background:#7FE2F8;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color:aliceblue;
+    border: 2px solid #699099;
+    opacity: 90%;
+}
+#btCadastrar:hover{
+    background: #715ebd;
+    border: 3px solid #7FE2F8;
+}

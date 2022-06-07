@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Veiculo.css" media="screen and (min-width:565px)">
+    <link rel="stylesheet" href="../css/VeiculoSM.css" media="screen and (max-width:564px)">
+    <script type="text/javascript" src="../js/placa.js"></script>
+    <title>4Parking - Cadastre-se</title>
+</head>
+<body>
+    <p>
+    <div id="logoCadastro">4Parking</div>
+</p>
+<form class="formularioCarro" id="formularioCarro" action="../php/cadastrarVeiculo.php" method="post">
+    <div id="qualPlacatxt">Qual a placa do teu carro?</div>
+    <input class="preenchimento" type="text" id="placa" name="placa" maxlength="10" pattern="[A-Za-z]{3}-[Aa-Zz-0-9]{4}" onkeypress="tracoPlaca(this);" 
+    placeholder="ABC-1234." /><br><br>
+    
+    <div id="">Qual o Renavan hein?</div>
+    <input wm-folder class="preenchimento" type="text" id="renavan" name="renavan" pattern="[0-2-3-4-5-6-7-8-9-1-3]{11}" placeholder="Insira o Renavan aqui." required><br><br>
+    <div id="">E o modelo?</div>
+    <input wm-folder class="preenchimento" type="text" id="modelo" name="modelo" placeholder="Insira o modelo aqui." required><br><br>
+    <div id="">E a cor?</div>
+    <input wm-folder class="preenchimento" type="text" id="cor" name="cor" placeholder="Diga a cor." required><br><br> 
+    <div id="nRecebermsg">Não quero receber mensagem do 4Parking.</div>
+    <input id="nReceberCheck" type="checkbox">
+    <div id="compartilharDados">Compartilhar meus dados pessoais com o 4Parking.</div>
+        <input id="compartilharCheck" type="checkbox">
+        <div id="termos">Eu concordo com os <a href="" id="roxotxt">Termos e Condições de uso do 4Parking.</a ></div>
+        <input id="termosCheck" type="checkbox" required>
+        <button id="seguirBt">Seguir</button>
+
+</form>
+<p><img  src ="../img/lemon-style-azul-gg.png" id="lemonG">
+    <img  src ="../img/lemon-style-azul-gg.png" id="lemonG1">
+<img  src ="../img/lemon-style-azul-pp.png" id="lemonpp">
+<p><img  src ="../img/lemon-style-azul-pp.png" id="lemonpp1"></p>
+</body>
+</html>

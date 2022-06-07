@@ -1,0 +1,40 @@
+@media screen  {
+    body{
+        background: #7FE2F8;
+        margin: 0;
+        min-width:768px;
+        max-width: 1024px;
+        min-height: 768px;
+        right: 0;
+    }
+    #lemonp{
+        position: absolute;
+        margin-top:15px;
+        height: 8%;
+        z-index: -1;
+        top: 75%;
+        left: 24%;
+    }
+    #lemonp2{
+        position: absolute;
+        top: 20%;
+        height: 18%;
+        right:14%;
+        z-index: -1;
+    }
+    #lemonp3{
+        position: absolute;
+        top: 10%;
+        height: 12%;
+        left: 6%;
+        z-index: -1;
+        top: 30%;
+    }
+    #lemonp4{
+        right: 6%;
+        position: absolute;
+        top:80%;
+        height: 10%;
+        z-index: -1;
+    }
+}

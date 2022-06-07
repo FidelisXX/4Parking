@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../js/pagamentos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <title>Pagamento</title>
+</head>
+<body>
+    <div id = "titulo"> Estamos quase lá para sua corrida, escolha sua forma de pagamento.</div>
+
+    
+    <button type="button" id="pix">Pix</button>
+    <div id="telaPix"></div>
+
+    <script>
+        
+        $(document).ready(function(){
+        $("#pix").click(function(){
+             
+            $(function(){
+                $("#telaPix").load("pix.html"); 
+            });
+        })
+   });
+   </script>
+
+
+
+    
+<button type="button" id="debito" >Debito</button>
+    <div id = "telaDebito"></div>
+    <script>
+        
+        $(document).ready(function(){
+        $("#debito").click(function(){
+        
+            $(function(){
+                $("#telaDebito").load("debito.html"); 
+            });
+        })
+   });
+   </script>
+    
+
+            
+    <button type="button" id="credito">Crédito</button>
+                <div id = "telaCredito"></div>
+                <script>
+        
+                    $(document).ready(function(){
+                    $("#credito").click(function(){
+                         
+                        $(function(){
+                            $("#telaCredito").load("credito.html"); 
+                        });
+                    })
+               });
+               </script> 
+            
+   
+</body>
+</html>

@@ -1,0 +1,93 @@
+@media screen {
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    }  
+    body{
+        background-color: azure;
+        margin: 0;
+        min-width:768px;
+        max-width: 1024px;
+        min-height: 768px;
+        right: 0;
+    }
+    #logoCadastro {
+        width: 50%;
+    position: absolute;
+    height: 20%;
+    left: 28%;
+    top: 5%;
+    font-family: "Mukta Vaani";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 80px;
+    text-align: center;
+    color: #060606;
+    }
+    .molde{
+        background-color: lemonchiffon;
+        top: 25%;
+        width: auto;
+        height: auto;
+        padding: 4%;
+        position: absolute;
+        font-family: "Mukta Vaani";
+        font-style: initial;
+        font-size: 22px bolder;
+        align-items: center;
+        left: 42%;
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    #btConfirme{
+        position: absolute;
+    width: 40%;
+    height: 15%;
+    left: 30%;
+    top: auto;
+    background:#7FE2F8;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color:azure;
+    border: 1px solid black;
+    }
+    #btConfirme:hover{
+        opacity: 75%;
+        border: 2px solid black;
+        color: black;
+    }
+    #img{
+        position: absolute;
+        top:75%;
+        left: 28%;
+        border: 3px solid black;
+        border-radius: 5px;
+       
+    }
+    #img:hover{
+        opacity: 75%;
+        border-radius: 1px solid gray;
+    }
+    #icon{
+        position: absolute;
+        width: auto;
+        top:70%;
+        left:32%;
+        bottom: 8%;
+        height: 12%;
+        color: black;
+    }
+    #lemon{
+        position: absolute;
+        top: 140%;
+        right: 2%;
+    }
+}

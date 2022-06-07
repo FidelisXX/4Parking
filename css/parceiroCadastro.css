@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+ }
+
+body{
+    background-color: azure;
+    
+}
+#logoCadastro {
+    width: 50%;
+position: absolute;
+height: 20%;
+left: 26%;
+top: 8%;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80px;
+text-align: center;
+color: #060606;
+}
+#boasVindas{
+    position: absolute;
+    font-size: 18px;
+    color: #7FE2F8;
+    text-align-last: center;
+    top: 24%;
+    left: 26%;
+}
+#formularioParceiro{
+    position: absolute;
+width: 20%;
+height: auto;
+left: 42%;
+top: 45%;
+color:#715ebd;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+}
+input{
+    position: absolute;
+    width: 100%;
+    height: 4%;
+    left: 0;
+    top: auto;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: small;
+    text-align: justify;
+}
+#corrente{
+    position: absolute;
+    left: 29%;
+    width: 6%;
+    height: 6%;
+    top: 86.8%;
+}
+#poupanca{
+    position: absolute;
+    width: 6%;
+    height: 6%;
+    left: 74%;
+    top: 86.8%;
+}
+#correntetxt{
+    position: absolute;
+    font-size: 18px;
+    left: auto;
+    width: auto;
+    height: auto;
+    top: 88%;
+}
+#poupancatxt{
+    position: absolute;
+    font-size: 18px;
+    left: 44%;
+    width: auto;
+    height: auto;
+    top: 88%;
+}
+#btCadastrar{
+    position: absolute;
+    width: 35%;
+    height: 4%;
+    left: 33%;
+    top:auto;
+    background:#715ebd;
+    border-radius: 30px;
+    font-family: "Mukta Vaani","Arial";
+color: aliceblue;
+font-weight: bold;
+font-size: small;
+text-align: center;
+border: 2px solid black;
+align-items: center;
+}
+#btCadastrar:hover{
+    opacity: 75%;
+    color: black;
+}
