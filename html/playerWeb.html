@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    
+<html lang="br-pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/playerWeb.css">
-    <script type="text/javascript" src="../js/maps.js"></script>
-    <title>4Parking - Player na Web</title>
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXqq8pbVTN5T7kHCcFDDgbfuELvBnoAVs&callback=initMap">
 </script>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- maps API-->
     <label>latitude: <span id="lat"></span> </label><br>
     <label>longitude: <span id="lon"></span></label>
-      <div id="map" style="width: 800px; height:500px;"></div>
-    <script type=" text/javascript">
+    
+        <div id="map"></div>
+   
+    <script type="text/javascript">
         var lat;
     var long;
     
@@ -45,34 +45,28 @@
         getLocation();
     
     </script>
-    <!--Logout-->
- <form class="login" id="logout" action ="../php/close.php">
- <b><div id="Bv"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Perfil</div> </i></b>
- <button id="bt" type="submit">Logout</button>
-</form>
-<!--campo de pesquisa para saber onde o ususario vai-->
-<form action="../php/search.php" method="post">
-    <div id="txtDestino">Tu vai pra onde?</div>
-    <input id="localDestino" name="localDestino" type="search" placeholder="Boa Viagem"><br>
-    <button id="a" type="submit">Pesquisar</button>
-</form>
-<!--Caminho para o usuario se tornar parceiro.-->
-<form action="parceiro.html">
-<button id="sejaParceiro">Seja um Parceiro 4Parking</button>
-</form>
 
+<header id="barrasuperior">
+    <div id="logo">4Parking</div>
+    <nav id="indice">
+        <script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
+        <a href="#" id="premium">Premium</a>
+        <a href="#" id="suporte">Suporte</a>
+        <a href="#" id="baixar">Baixar</a>
+        <a href="cadastroUsu.html" id="cadastro">Cadastro</a>
+        <a href="parceiro.html" id="entrar">Parceiro</a>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <a href="login.html" id="sair">Sair</a>
+    </nav>
 
-
-<script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
-<p>
-    <img src="../img/lemon-style.png" alt="" id="lemonp">
-</p>
-<p>
-    <img src="../img/lemon-style.png" alt="" id="lemonp2">
-</p>
-<p>
-    <img src="../img/lemon-style.png" alt="" id="lemonp4">
-</p>
-
+</header>
+    
+    <div id="popUp">
+        <div id="legenda">Tu vai pra onde?</div>
+<input id="localDestino" name="localDestino" type="search" placeholder="Adicionar um local de destino"><br>
+    </div>
+    <form action="../php/buscarEnderecos.php">
+        <button id="seguirBt">Seguir</button>
+   
 </body>
 </html>

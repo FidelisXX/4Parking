@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen  {
+    html, body{
+        background: aliceblue;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        min-width:312px;
+        max-width: 564px;
+        min-height: 474px;
+        justify-content: center;
+        align-items: center;
+    }
+#logoCadastro {
+    width: 50%;
+    position: absolute;
+    height: 20%;
+    left: 35%;
+    top: 20%;
+    font-family: "Mukta Vaani";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 80px;
+    text-align: center;
+    color: #060606;
+    z-index: 1;
+}
+.formularioEndereco{
+    position: absolute;
+        color: #715ebd;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 50%;
+        height: auto;
+        left: 40%;
+        top: 50%;
+}
+input{
+    font-size: 16px;
+        right: auto;
+        width: 80%;
+        height: auto;
+        left: auto;
+    border-radius: 5px;
+    box-shadow: 1px;
+    border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+}
+#btCadastrar{
+    position: absolute;
+    width: 65%;
+    height: 6%;
+    left: 1%;
+    top: 100%;
+    background:#7FE2F8;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    color:aliceblue;
+    border: 2px solid #699099;
+    opacity: 90%;
+}
+#btCadastrar:hover{
+    background: #715ebd;
+    border: 3px solid #7FE2F8;
+}
+    #lemonpp{
+        position: absolute;
+        margin-top:15px;
+        width: 12%;
+        z-index: 0;
+        top: 24%;
+        left: 30%;
+    }
+    #lemonpp1{
+        position: absolute;
+        top: 110%;
+        width: 18%;
+        right:3%;
+        z-index: 0;
+    }
+    #lemonG{
+        position: absolute;
+        width: 30%;
+        left: 3%;
+        z-index: 0;
+        top:70%;
+    }
+    #lemonG1{
+        right: 2%;
+        width: 30%;
+        position: absolute;
+        top:18%;
+        z-index: 0;
+    }}
