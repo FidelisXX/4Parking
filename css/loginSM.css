@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen  {
+    body{
+        background: #7FE2F8;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        min-width:312px;
+        max-width: 564px;
+        min-height: 474px;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        background-color: black;
+        position: absolute;
+    
+    margin: 0;
+    width: auto;
+    height: 7%;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    }
+    header.barraSuperior{
+        top: 0;
+        background-color: rgb(7, 7, 7);
+        text-decoration: none;
+    position: absolute;
+    margin-top: -7%;
+    margin: 0;
+    width:100%;
+    height: 7%;
+    color: #715ebd;
+        display: flex;
+        font-size: 16px large;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    header nav a{
+        text-decoration: none;
+        color: aliceblue;
+        margin-right: 6px;
+        width: auto;
+        right: 1%;
+        text-align-last: right;
+        text-transform: uppercase;
+        word-spacing: 16px;
+        z-index: 1;
+        position: relative;
+       
+    }
+    #indice{
+        font-size: 12px;
+    }
+    nav a:hover{
+        color: #715ebd;
+    }
+    header div a{
+        color: rgb(245, 241, 241);
+        font-family:Arial, Helvetica, sans-serif;
+        position: relative;
+        font-size: 20px;
+        word-spacing: 20px;
+        top: 5%;
+        z-index: 1;
+        text-decoration: none;
+    }
+    #frase{
+        width: 70%;
+    position: absolute;
+    height: 20%;
+    left: 20%;
+    top: 18%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #006494;
+    }
+#formularioLogin{
+        position: absolute;
+width: 20%;
+height: auto;
+left: 38%;
+top: 45%;
+color:#13293D;
+font-family: "Mukta Vaani";
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 30px;
+    }
+input{
+    position: absolute;
+    width: 200%;
+    height: 14%;
+    left: 0;
+    top: auto;
+    z-index: 4;
+    border: 1px solid #7FE2F8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+    #entrarBt:hover{
+        opacity: 85%;
+        color: black;
+        background-color: #006494;
+        border: 4px solid azure;
+    }
+    #entrarBt{
+        position: absolute;
+    width: 110%;
+    height: 20%;
+    left: 28%;
+    top: 120%;
+    font-size: medium;
+    background: #13293D;
+    border-radius: 30px;
+    text-align: center;
+    color: azure;
+    border: 4px solid #006494;
+    }
+    #lemonp{
+        position: absolute;
+        margin-top:15px;
+        width: 18%;
+        z-index: -1;
+        top: 84%;
+        left: 17%;
+    }
+    #lemonp2{
+        position: absolute;
+        top: 26%;
+        width: 32%;
+        right:10%;
+        z-index: -1;
+    }
+    #lemonp3{
+        position: absolute;
+        top: 10%;
+        width: 18%;
+        left: 10%;
+        z-index: -1;
+        top: 12%;
+    }
+    #lemonp4{
+        right: 0%;
+        position: absolute;
+        top:70%;
+        width: 27%;
+        z-index: -1;
+    }
+}
