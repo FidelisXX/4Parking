@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facilidade ajuda em tudo - 4Parking</title>
-    <link rel="stylesheet" href="../css/4Parking.css">
+    <link rel="stylesheet" href="../css/4Parking.css" media="screen and (min-width:565px)">
+    <link rel="stylesheet" href="../css/4ParkingMobile.css" media="screen and (max-width:564px)"> 
+    <script type="text/javascript" src="../js/btnMobile.js"></script>
 </head>
 <body>
     <!--Esse html contém nossa página inicial, e demais <a> para outras páginas-->
     <header class="barraSuperior">
         <div id="logo">4Parking</div>
-        <nav id="indice">
-            <a href="#" id="premium">Premium</a>
-            <a href="#" id="suporte">Suporte</a>
-            <a href="#" id="baixar">Baixar</a>
-            <a href="">|</a>
-            <a href="cadastroUsu.html" id="cadastro">Cadastrar</a>
-            <a href="login.html" id="entrar">Entrar</a>
+        <nav id="nav">
+            <button id="btn-mobile" onclick="toggleMenu()" aria-expanded="false">Menu
+            <span id="hamburguer"></span></button>
+            <ul id="menu">
+            <li><a href="#" id="premium">Premium</a></li>
+            <li><a href="#" id="suporte">Suporte</a></li>
+            <li><a href="#" id="baixar">Baixar</a></li>
+            <!-- <a href="">|</a> -->
+            <li><a href="cadastroUsu.html" id="cadastro">Cadastrar</a></li>
+            <li><a href="login.html" id="entrar">Entrar</a></li>
+        </ul>
         </nav>
     </header>
         <div class="divCentral">
@@ -36,7 +42,7 @@
       
         <footer class="rodape">
             <h3 class="logo"></h3>
-            <div><table id="tabela">
+            <div><table id="tabela" media="screen and (min-width:565px)">
                 <tbody><tr>
                     <td> <a href="#" class="empresa" id="empresa" name="empresa" onclick="">Empresa</a></td>
                     <td> <a href="#" class="empresa" id="comunidades" name="comunidades" onclick="">Comunidades</a></td>

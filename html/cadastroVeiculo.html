@@ -27,8 +27,7 @@
 <form class="formularioCarro" id="formularioCarro" action="../php/cadastrarVeiculo.php" method="post">
     <div id="qualPlacatxt">Qual a placa do teu carro?</div>
     <input class="preenchimento" type="text" id="placa" name="placa" maxlength="10" pattern="[A-Za-z]{3}-[Aa-Zz-0-9]{4}" onkeypress="tracoPlaca(this);" 
-    placeholder="ABC-1234." /><br><br>
-    
+    placeholder="ABC-1234."/><br><br>
     <div id="">Qual o Renavan hein?</div>
     <input wm-folder class="preenchimento" type="text" id="renavan" name="renavan" pattern="[0-2-3-4-5-6-7-8-9-1-3]{11}" placeholder="Insira o Renavan aqui." required><br><br>
     <div id="">E o modelo?</div>
@@ -39,7 +38,18 @@
     <input id="nReceberCheck" type="checkbox">
     <div id="compartilharDados">Compartilhar meus dados pessoais com os provedores de conteúdo do 4Parking para fins de marketing.</div>
         <input id="compartilharCheck" type="checkbox">
-        <div id="termos">Eu concordo com os <a href="termos.html" id="roxotxt">Termos e Condições de uso do 4Parking.</a ></div>
+        <div id="termos">Eu concordo com os <a onclick="comprovanteDebito()" id="roxotxt"><div id="termosBarra"><script>
+        
+            $(document).ready(function(){
+            $("#termos").click(function(){
+            
+                $(function(){
+                    $("#telaTermos").load("termos.html"); 
+                });
+            })
+       });
+       </script></div>
+            Termos e Condições de uso do 4Parking.</a ></div>
         <input id="termosCheck" type="checkbox" required>
         <button id="seguirBt">Seguir</button>
 

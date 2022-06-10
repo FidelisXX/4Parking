@@ -7,16 +7,14 @@
     box-sizing: border-box;
   
 }  
-body{
-    background: #7FE2F8;
+body, ul{
+    background: #006494;
     margin: 0;
-    min-width:768px;
-    max-width: 1024px;
-    min-height: 768px;
     right: 0;
 }
 
 header{
+    box-sizing: border-box;
     background-color: black;
     position: absolute;
     margin: 0;
@@ -44,6 +42,7 @@ color: #715ebd;
     z-index: 1;
 }
 header nav a{
+    display: flex;
     text-decoration: none;
     color: aliceblue;
     margin-right: 6px;
@@ -52,7 +51,7 @@ header nav a{
     text-align-last: right;
     text-transform: uppercase;
     word-spacing: 20px;
-    z-index: 1;
+    z-index: 0;
     position: relative;
    
 }
@@ -65,19 +64,27 @@ header nav a{
     top: 5%;
     z-index: 1;
 }
+#nav{
+    display: block;
+    list-style: none;
+    padding: .5rem;
+}
+
+#nav a{
+    display: block;
+    padding: .5rem;
+}
+a:hover{
+    background: #13293D;
+}
 #menu{
     display: flex;
     list-style: none;
     gap: .5rem;
 }
-
 #menu a{
     display: block;
     padding: .5rem;
-}
-
-a:hover{
-    background: #13293D;
 }
 #btn-mobile{
     display: none;
@@ -91,8 +98,8 @@ a:hover{
     #menu{
         display: block;
         position: absolute;
-        top: 60px;
         width: 100%;
+        top: 60px;
         right: 0;
         background: #13293D;
         height: 0px;
@@ -100,9 +107,8 @@ a:hover{
         z-index: 1000;
         visibility: hidden;
     }
-
-
 }
+
 #nav.active #menu{
     height: calc (100vh - 60px);
     visibility: visible;
@@ -113,6 +119,7 @@ a:hover{
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, .05);
 }
+
 #btn-mobile{
     display: flex;
     padding: .5rem 1rem;
@@ -148,6 +155,7 @@ a:hover{
     transform: rotate(-135deg);
     top: -9px;
 }
+
 i{
     color: white;
     margin: 0;
@@ -333,7 +341,7 @@ nav a:hover{
 }
 
 /*Posicionamento da imagens de fundo*/
-#lemonp{
+/*#lemonp{
     position: absolute;
     margin-top:15px;
     z-index: 0;
@@ -358,4 +366,4 @@ nav a:hover{
     position: absolute;
     top:80%;
     z-index: 0;
-}
+}*/

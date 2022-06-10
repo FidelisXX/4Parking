@@ -15,24 +15,23 @@
     header{
         background-color: black;
         position: absolute;
-    
-    margin: 0;
-    width: auto;
-    height: 7%;
-    top: 0;
-    display: flex;
-    z-index: 1;
+        margin: 0;
+        width: auto;
+        height: 7%;
+        top: 0;
+        display: flex;
+        z-index: 1;
     }
     header.barraSuperior{
         top: 0;
         background-color: rgb(7, 7, 7);
         text-decoration: none;
-    position: absolute;
-    margin-top: -7%;
-    margin: 0;
-    width:100%;
-    height: 7%;
-    color: #715ebd;
+        position: absolute;
+        margin-top: -7%;
+        margin: 0;
+        width:100%;
+        height: 7%;
+        color: #715ebd;
         display: flex;
         font-size: 16px large;
         flex-direction: row;
@@ -64,61 +63,61 @@
         z-index: 1;
     }
     #logoCadastro{
-     width: 50%;
-    position: absolute;
-    height: auto;
-    left: 27%;
-    top: 7%;
-    font-family: "Mukta Vaani";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 80px;
-    text-align: center;
-    color: #060606;
+        width: 50%;
+        position: absolute;
+        height: auto;
+        left: 27%;
+        top: 7%;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 80px;
+        text-align: center;
+        color: #060606;
     }
     
     #cadastroText{
-    position: absolute;
-    width: 50%;
-    height: 2%;
-    left: 27%;
-    top: 19%;
-    font-family: "Mukta Vaani";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 50px;
-    text-align: center;
-    color: #13293D;
+        position: absolute;
+        width: 50%;
+        height: 2%;
+        left: 27%;
+        top: 19%;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 50px;
+        text-align: center;
+        color: #13293D;
     }
     #cadastreGmail{
         position: absolute;
-    width: auto;
-    height: auto;
-    left: 47%;
-    top: 34%;
-    background: #006494;
-    border-radius: 30px;
-    font-family: "Mukta Vaani","Arial";
-    color: aliceblue ;
-    font-weight: bold;
-    font-size: 14px;
-    line-height:30px;
-    text-align: center;
+        width: auto;
+        height: auto;
+        left: 47%;
+        top: 34%;
+        background: #006494;
+        border-radius: 30px;
+        font-family: "Mukta Vaani","Arial";
+        color: aliceblue ;
+        font-weight: bold;
+        font-size: 14px;
+        line-height:30px;
+        text-align: center;
     }
     #cadastreGmail:hover{
         background: #13293D;
-    border: 3px solid #006494;
+        border: 3px solid #006494;
     }
     #line{
         position: absolute;
         top: 43%;
-    font-size: 15px;
-    color: rgb(131, 131, 131);
-    width: 58%;
-    left: 23%;
-    text-align: center;
+        font-size: 15px;
+        color: rgb(131, 131, 131);
+        width: 58%;
+        left: 23%;
+        text-align: center;
     }
     
     #formularioUsuario{
@@ -142,9 +141,9 @@
         width: 50%;
         height: 8%;
         left: auto;
-    border-radius: 5px;
-    box-shadow: 1px;
-    border: 1px solid #006494;
+        border-radius: 5px;
+        box-shadow: 1px;
+        border: 1px solid #006494;
         box-sizing: border-box;
         z-index: 2;
     
@@ -164,8 +163,8 @@
         border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
-    box-shadow: 1px;
-    line-height: 3%;
+        box-shadow: 1px;
+        line-height: 3%;
     }
     
     .mes{
@@ -178,8 +177,8 @@
         border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
-    box-shadow: 1px;
-    line-height: 3%;
+        box-shadow: 1px;
+        line-height: 3%;
     }
     
     .ano{
@@ -192,8 +191,8 @@
         border: 1px solid #006494;
         box-sizing: border-box;
         border-radius: 5px;
-    box-shadow: 1px;
-    line-height: 3%;
+        box-shadow: 1px;
+        line-height: 3%;
     }
     .genero{
         position: absolute;
@@ -222,11 +221,11 @@
         color:#006494;
         position: absolute;
         font-size: medium;
-    width: auto;
-    height: auto;
-    left: 6%;
-    top: auto;
-    z-index: 5;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: auto;
+        z-index: 5;
     }
     #feminino{
         position: absolute;
@@ -243,11 +242,11 @@
         color: #006494;
         position: absolute;
         font-size: medium;
-    width: auto;
-    height: auto;
-    left: 6%;
-    top: auto;
-    z-index: 5;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: auto;
+        z-index: 5;
     }
     #naoBinario{
         position: absolute;
@@ -264,11 +263,11 @@
         color: #006494;
         position: absolute;
         font-size: medium;
-    width: auto;
-    height: auto;
-    left: 6%;
-    top: auto;
-    z-index: 5;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: auto;
+        z-index: 5;
     }
     #naoDizer{
         position: absolute;
@@ -285,11 +284,11 @@
         color: #006494;
         position: absolute;
         font-size: medium;
-    width: auto;
-    height: 1%;
-    left: 6%;
-    top: auto;
-    z-index: 5;
+        width: auto;
+        height: 1%;
+        left: 6%;
+        top: auto;
+        z-index: 5;
     }
     #seguirBt{
         position: absolute;
@@ -300,15 +299,15 @@
         background:#006494;
         border-radius: 30px;
         font-family: "Mukta Vaani","Arial";
-    color: aliceblue;
-    font-weight: bold;
-    font-size: small;
-    text-align: center;
-    border: 2px solid #699099;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: small;
+        text-align: center;
+        border: 2px solid #699099;
     }
     #seguirBt:hover{
         background: #13293D;
-    border: 3px solid #006494;
+        
     }
     .footer{
         position: absolute;
@@ -319,17 +318,16 @@
     .rodape{
         background-color: black;
         position: absolute;
-    margin: auto;
-    width: 100%;
-    left: 0;
-    height: auto;
-    display: flex;
-    top: 240%;
-    
-    right: auto;
-    margin-bottom: -10px;
-    left: auto;
-    flex-direction: row;
+        margin: auto;
+        width: 100%;
+        left: 0;
+        height: auto;
+        display: flex;
+        top: 240%;
+        right: auto;
+        margin-bottom: -10px;
+        left: auto;
+        flex-direction: row;
     }
     .redesSociais{
         margin: auto;
