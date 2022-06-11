@@ -1,192 +1,87 @@
-@media screen {
-    *{
-        box-sizing: border-box;
-    }
-    body{
-        background: #000000;
-        margin: 0;
-        min-width:100%;
-        max-width: 100%;
-        min-height: 100%;
-        right: 0;
-        flex-wrap: wrap;
-    }
 
-header{
-        background-color: #7FE2F8;
-        
-    position: absolute;
-
-margin: 0;
-width: 100%;
-height: 5%;
-top: 0;
-display: flex;
-z-index: 1;
-
-}
-header.barrasuperior{
-    top: 0;
-    background-color: rgb(7, 7, 7);
-    text-decoration: none;
-position: absolute;
-margin-top: -7%;
-margin: 0;
-width:100%;
-height: 8%;
-color: #715ebd;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
-    font-size: 16px large;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-}
-#logo{
-    color: rgb(2, 2, 2);
-    font-family: Roboto, solid;
-    position: relative;
-    font-size: 28px;
-    word-spacing: 20px;
-    top: 5%;
-    z-index: 1;
-}
-header nav a{
+    flex-wrap: wrap;
+  }
+  
+  a {
+    color: white;
     text-decoration: none;
-    color: rgb(5, 5, 5);
-    margin-right: 6px;
-    width: auto;
-    text-align-last: right;
-    text-transform: uppercase;
-    word-spacing: 20px;
-    z-index: 1;
-    position: relative;
-   
-}
-@media(max-width: 565px){
-
-#indice{
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .nav {
+    background: #009FFF;
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    min-height: 60px;
+    padding: 10px;
+  }
+  
+  .logo {
+    flex-grow: 1;
+  }
+  
+  #toggle {
     display: none;
-    position: relative;
-    text-align-last: right;
-    top: auto;
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: 5px;
-    right: 2%;
-    flex-wrap: nowrap;
-    align-items: center;
-}}
-#log{
-    position: relative;
-    color: rgb(0, 0, 0);
-    top: auto;
-    width: auto;
-    text-decoration: none;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 1;
-}
-i{
-    color: rgb(0, 0, 0);
-    margin: 0;
-    height: auto;
-    font-size: smaller;
-}
-i:hover{
-    color: gray;
-}
-
-nav a:hover{
-    color: #715ebd;
-}
-
-    #popUp{
-        top: 8%;
-        background-color: #fcfcfc;
-        border: solid #000000;
-        text-decoration: none;
+  }
+  
+  label {
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
     position: absolute;
-    top: 15%;
-    margin: 0;
-    width:30%;
-    height: 60%;
-    margin-left: 1%;
-    border-radius: 25px;
-    color: #e5e3ec;
-        z-index: 1;
-        flex-wrap: wrap;
-        
+    right: 10px;
+    display: none;
+  }
+  
+  /*flex box*/
+  .menu ul {
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  @media (max-width : 739px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 420px;
     }
-    #legenda{
-        width: auto;
-        height: auto;
-        font-size: auto;
-        left: 6%;
-        position: absolute;
-        margin: 2%;
+  
+    label {
+      display: block;
+      cursor: pointer;
     }
-    #localDestino{
-        position: relative;
-        background-color: rgb(218, 218, 218);
-        height: 10%;
-        width: 80%;
-        margin-left: 5%;
-        top: 30%;
-        border-radius: 12px;
-        font-size: medium;
+  
+    .menu {
+      width: 100%;
     }
-#localDestino:hover{
-    background-color: rgb(244, 247, 244);
-    transition: border 0.2s cubic-bezier(0.2,0.8,0.4,1);
-    
-}
-    #map{
-        z-index: 0;
-        width:100%;
-        height:100%;
-        position: absolute;
+  
+    .menu ul {
+      flex-direction: column;
+      display: none;
+      text-align: center;
     }
-    #legenda{
-        top: 10%;
-        border: 6px;
-        z-index: 1;
-        font-size: 38px;
-        font-weight: bold;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-        color: black;
-        position: absolute;
+  
+    .menu ul li {
+      margin: 10px 0;
+      line-height: 20px;
     }
-    #seguirBt{
-        position: absolute;
-        width: 14%;
-        height: 7%;
-        left: 12%;
-        top: 55%;
-        background:#7FE2F8;
-        border-radius: 30px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: bolder;
-        color:azure;
-        border: 1px solid #699099;
-        z-index: 1;
-       
-} 
-@media(min-width:564px){
-    #menu{
-        display: none;
+  
+    /*mandiga css*/
+    #toggle:checked+.menu ul {
+      display: block;
+    }
+  }
 
-    }
-}
-#menu{
-    float:right;
-    color:#000000;
-    border: solid 1px #777;
-    border-radius: 5px;
-    padding: 10px 20px;
-    width: 10%;
-}
-
-}
