@@ -1,25 +1,26 @@
 @media screen{
-
+body{
+  background: aliceblue;
+}
 
 .container {
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
     z-index: 1;
-    
   }
   
   a {
     color: white;
     text-decoration: none;
-   
   }
   
+  a:hover{
+    color: #7FE2F8;
+  }
   li {
     list-style: none;
-    
   }
   
   .nav {
@@ -27,16 +28,13 @@
     background: -webkit-linear-gradient(to right, #030303, #000000);
     background: linear-gradient(to right, #000000, #289ee7);
     width: 100%;
-    min-height: 10%;
+   /* min-height: 8%;*/
     z-index: 3;
     top:0;
     margin: 0;
     position: absolute;
-    
   }
-  
 
-  
   #toggle {
     display: none;
   }
@@ -44,7 +42,7 @@
   label {
     color: white;
     cursor: pointer;
-    margin: 0 20px 0 0;
+    margin: 0 18px 0 0;
     position: absolute;
     right: 10px;
     display: none;
@@ -67,7 +65,7 @@
     font-size: 28px;
     word-spacing: 20px;
     top: 5%;
-    left: 3px;
+    left: 2px;
     z-index: 1;
 }
 header{
@@ -104,7 +102,7 @@ width: 22%;
 height: 8%;
 left: 41%;
 top: 80%;
-background: #FFFBFB;
+background: #13293D;
 border-radius: 30px;
 box-shadow: 1px;
 font-family: "Mukta Vaani","Arial";
@@ -113,11 +111,12 @@ font-weight: bold;
 font-size: 14px auto;
 text-align:center;
 z-index: 1;
+border: #289ee7 3px solid;
 }
 #btBaixar:hover{
     transform: scale(1.1);
     background: #006494;
-    border: 3px solid azure;
+    border: 3px solid #13293D;
     color: black;
 }
 

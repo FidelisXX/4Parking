@@ -14,5 +14,4 @@ if(($resultado_usuario) AND ($resultado_usuario ->num_rows !=0)) {
         }else{
         echo"Nenhum estacionamento proximo encontrado.";
     }
-
 ?>

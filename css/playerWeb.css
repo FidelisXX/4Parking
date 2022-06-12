@@ -15,6 +15,9 @@
     text-decoration: none;
    
   }
+  a:hover{
+    color: #7FE2F8;
+  }
   
   li {
     list-style: none;
@@ -26,7 +29,7 @@
     background: -webkit-linear-gradient(to right, #030303, #000000);
     background: linear-gradient(to right, #000000, #289ee7);
     width: 100%;
-    min-height: 12%;
+    /*min-height: 12%;*/
     z-index: 3;
     top:0;
     margin: 0;
@@ -171,6 +174,10 @@ transition: border 0.2s cubic-bezier(0.2,0.8,0.4,1);
     color:azure;
     border: 1px solid #699099;
     z-index: 1;   
+}
+#seguirBt{
+  transition: 0.2s;
+  background: linear-gradient(to right,  #289ee7,#000000);
 }
 #logo{
 color: azure;

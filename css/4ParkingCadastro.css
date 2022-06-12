@@ -40,9 +40,9 @@
         position: absolute;
     width: auto;
     height: auto;
-    left: 45%;
+    left: 47%;
     top: 34%;
-    background: #7FE2F8;
+    background: #006494;
     border-radius: 30px;
     font-family: "Mukta Vaani","Arial";
     color: aliceblue ;
@@ -52,7 +52,7 @@
     text-align: center;
     }
     #cadastreGmail:hover{
-        background: #715ebd;
+        background: linear-gradient(to right, #000000, #289ee7);;
     border: 3px solid #7FE2F8;
     }
     #line{
@@ -67,7 +67,7 @@
     
     #formularioUsuario{
         position: absolute;
-        color: #715ebd;
+        color: #006494;
         font-family: "Mukta Vaani";
         font-style: normal;
         font-weight: bold;
@@ -92,6 +92,11 @@
         box-sizing: border-box;
         z-index: 2;
     
+    }
+    #imgUsuario[type='file']{
+        width: auto;
+        height: auto;
+
     }
     #qualTeuNometxtB{
         font-size: x-small;
@@ -155,7 +160,7 @@
     #masculino{
         position: absolute;
         width: 6%;
-        height: 6%;
+        height: 5%;
         left: 0;
         top: auto;
         z-index: 4;
@@ -175,7 +180,7 @@
     #feminino{
         position: absolute;
         width: 6%;
-        height: 6%;
+        height: 5%;
         left: 0;
         top: auto;
         z-index: 4;
@@ -196,7 +201,7 @@
     #naoBinario{
         position: absolute;
         width: 6%;
-        height: 6%;
+        height: 5%;
         left: 0;
         top: auto;
         z-index: 4;
@@ -217,7 +222,7 @@
     #naoDizer{
         position: absolute;
         width: 6%;
-        height: 6%;
+        height: 5%;
         left:0;
         top: auto;
         z-index: 4;
@@ -237,21 +242,21 @@
     }
     #seguirBt{
         position: absolute;
-        width: 20%;
-        height: 12%;
+        width: 18%;
+        height: 10%;
         left: 14%;
         top: auto;
-        background:#7FE2F8;
+        background:#13293D;
         border-radius: 30px;
         font-family: "Mukta Vaani","Arial";
     color: aliceblue;
     font-weight: bold;
     font-size: small;
     text-align: center;
-    border: 2px solid #699099;
+    border: 3px solid #7FE2F8;
     }
     #seguirBt:hover{
-        background: #715ebd;
+        background: #006494;
     border: 3px solid #7FE2F8;
     }
     #lemonpp{
@@ -280,100 +285,7 @@
         top:160%;
         z-index: 0;
     }
-    .footer{
-        position: absolute;
-        display: flex;
-        margin: 0;
-        bottom: 0;
-    }
-    .rodape{
-        background-color: black;
-        position: absolute;
-    margin: auto;
-    width: 100%;
-    left: 0;
-    height: auto;
-    display: flex;
-    top: 240%;
     
-    right: auto;
-    margin-bottom: -10px;
-    left: auto;
-    flex-direction: row;
-    }
-    .redesSociais{
-        margin: auto;
-        position: absolute;
-        width: auto;
-        height: auto;
-        right: 2px;
-        top:auto;
-        line-height: normal;
-        text-align: end;
-        display: flex;
-        padding: 2px;
-        
-    }
-    .redesSociais:hover{
-        color: gray;
-    }
-    #linksUteis{
-        width: 20%;
-    }
-    #appMovel{
-        width: 42%;
-    }
-    .sac{
-        position: absolute;
-        text-align-last: left;
-        top: auto;
-        width: auto;
-        height: auto;
-        margin-left: 0;
-        padding: 1px;
-        right: 0.2%;
-    }
-    table tr td a{
-        margin-bottom: 2px;
-        background-color: rgb(7, 7, 7);
-        text-decoration: none;
-    margin: 90px;
-    width: auto;
-    height: auto;
-    top: auto;
-    color: gray;
-        font-size: 14px;
-        flex-direction: row;
-        align-items: justify;
-        justify-content: space-between;
-    }
-    td a:hover{
-        color: aliceblue;
-    }
-    nav a{
-        margin: auto;
-        width: auto;
-        height: auto;
-        top: auto;
-        text-decoration: none;
-        color: aliceblue;
-        text-align-last: right;
-        font-size: 12px;
-        align-content: space-between;
-        bottom: 1px;
     
-    }
-    nav a:hover{
-        color: #715ebd;
-    }
-    i{
-        color: white;
-        margin: 0;
-        height: auto;
-        font-size: smaller;
-    }
-    i:hover{
-        color: gray;
-    }
 }
 

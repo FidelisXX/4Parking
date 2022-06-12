@@ -1,0 +1,33 @@
+@media screen {
+    *{
+
+        margin: 0;
+      
+        padding: 0;
+      
+        box-sizing: border-box;
+      
+    } 
+
+#telaDebito{
+    position: relative;
+    height: auto;
+    width: 54%;
+    border-radius: 15px;
+    background: #13293D;
+    text-align: left;
+    border:solid 2px aliceblue;
+    left: 20%;
+    padding: 2%;
+    font-size: medium;
+    color: aliceblue;
+}
+input{
+    border-radius: 5px;
+    font-size: small;
+    width: auto;
+}
+div{
+    left: 30%;
+}
+}

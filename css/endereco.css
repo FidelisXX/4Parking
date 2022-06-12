@@ -1,14 +1,14 @@
-*{
+@media screen{
 
+
+*{
     margin: 0;
-  
     padding: 0;
-  
     box-sizing: border-box;
   
 }  
 body{
-    background-color: azure;
+    background-color: aliceblue;
     margin: 0;
     min-width:768px;
     max-width: 1024px;
@@ -27,11 +27,11 @@ font-weight: bold;
 font-size: 38px;
 line-height: 80px;
 text-align: center;
-color: #060606;
+color: #13293D;
 }
-.formularioEndereco{
+form.formularioEndereco{
     position: absolute;
-        color: #715ebd;
+        color: #006494;
         font-family: "Mukta Vaani";
         font-style: normal;
         font-weight: bold;
@@ -39,17 +39,16 @@ color: #060606;
         line-height: 25px;
         width: 50%;
         height: auto;
-        left: 40%;
+        left: 43%;
         top: 50%;
 }
 input{
-    font-size: 16px;
+    font-size: small;
         right: auto;
-        width: 50%;
-        height: auto;
+        width: 40%;
+        height: 30px;
         left: auto;
     border-radius: 5px;
-    box-shadow: 1px;
     border: 1px solid #7FE2F8;
         box-sizing: border-box;
 }
@@ -57,18 +56,19 @@ input{
     position: absolute;
     width: 25%;
     height: 6%;
-    left: 13%;
+    left: 9%;
     top: 100%;
-    background:#7FE2F8;
+    background:#006494;
     border-radius: 30px;
     text-align: center;
     font-size: 14px;
     font-weight: bolder;
     color:aliceblue;
-    border: 2px solid #699099;
+    border: 2px solid #7FE2F8;
     opacity: 90%;
 }
 #btCadastrar:hover{
-    background: #715ebd;
+    background: #13293D;
     border: 3px solid #7FE2F8;
+}
 }
