@@ -4,5 +4,5 @@
 
 Projeto idealizado e codificado por;
 Natan Luiz ->
-Davi Fidelix ->
+Davi Fidelis ->
 Luan Ferreira ->
