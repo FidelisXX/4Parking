@@ -10,28 +10,59 @@
       
     } 
 #envie{
-    background-color:black;
+    background-color:aliceblue;
 }
-
-
 
     } 
 
-#telaPix{
-    position: relative;
-    height: 16%;
-    width: 30%;
-    border-radius: 10px;
-    background: #13293D;
-    text-align: center;
-    border:solid 2px #7FE2F8;
-    left: center;
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
 div{
     left: 33%;
+}
+#textoConfirmacao{
+
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center justify;
+    color: #006494;
+}
+#pixPago{
+        position: absolute;
+        width: 3%;
+        height: 2%;
+        background:#13293D;
+        border-radius: 30px;
+        font-family: "Mukta Vaani","Arial";
+    color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    border: 2px solid #7FE2F8;
+    left: 3%;
+    }
+    #pixPago:hover{
+        background: #006494;
+    border: 3px solid #7FE2F8;
+}
+#pixVoltar{
+    position: absolute;
+    width: 3%;
+    height: 2%;
+    background:#13293D;
+    border-radius: 30px;
+    font-family: "Mukta Vaani","Arial";
+color: aliceblue;
+font-weight: bold;
+font-size: small;
+text-align: center;
+border: 2px solid #7FE2F8;
+left: -1px;
+}
+#pixVoltar:hover{
+    background: #006494;
+border: 3px solid #7FE2F8;
 }
 
 
