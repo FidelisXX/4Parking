@@ -1,11 +1,11 @@
 @media screen {
-    *{
-
+    *{  
         margin: 0;
       
         padding: 0;
       
         box-sizing: border-box;
+
 
       
     } 
@@ -14,6 +14,26 @@
 }
 
 
+
+    } 
+
+#telaPix{
+    position: relative;
+    height: 16%;
+    width: 30%;
+    border-radius: 10px;
+    background: #13293D;
+    text-align: center;
+    border:solid 2px #7FE2F8;
+    left: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+div{
+    left: 33%;
+}
+
+
 
 
