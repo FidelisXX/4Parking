@@ -5,7 +5,7 @@
      }
     
     body{
-        background-color: azure;
+        background-color: aliceblue;
     }
     #logoCadastro{
      width: 50%;
@@ -282,7 +282,7 @@
     #lemonG1{
         right: 6%;
         position: absolute;
-        top:160%;
+        top:177%;
         z-index: 0;
     }
     

@@ -7,15 +7,18 @@
 body{
     background: aliceblue;
 }
-
-
- #buttons{
+div{
+    padding: 5%;
+}
+#buttons{
     position: absolute;
     top:40%;
     z-index: 2;
     left:42%;
+    padding: 3%;
    
 }
+
 #pix{
 width: 120px;
 height: 25px;
@@ -42,7 +45,13 @@ button{
     color: #006494;
 }
 #titulo{
-    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center justify;
+    color: #006494;
 }
 #lemonG{
     position: absolute;
