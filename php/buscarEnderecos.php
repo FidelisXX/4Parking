@@ -17,9 +17,9 @@ $total = mysqli_num_rows($dados);
 
 <html>
 	<head>
-	<link rel="stylesheet" type="text/css" href="../css/exibir_enderecos.css">
+	<link rel="stylesheet" href="../css/exibir_enderecos.css">
 
-	<title>Exemplo</title>
+	<title>Estacionamentos disponiveis</title>
 </head>
 <body>
 <!--from here down the php calls-->
@@ -61,18 +61,10 @@ $total = mysqli_num_rows($dados);
 	// end to if
 	}
 ?>
-  <p>
-             <img src="../img/lemon-style.png" alt="" id="lemonp">
-         </p>
-         <p>
-             <img src="../img/lemon-style.png" alt="" id="lemonp2">
-         </p>
-         <p>
-             <img src="../img/lemon-style.png" alt="" id="lemonp3">
-         </p>
-         <p>
-             <img src="../img/lemon-style.png" alt="" id="lemonp4">
-         </p>
+  <p><img  src ="../img/lemon-style-azul-gg.png" id="lemonG">
+            <img  src ="../img/lemon-style-azul-gg.png" id="lemonG1">
+        <img  src ="../img/lemon-style-azul-pp.png" id="lemonpp">
+        <p><img  src ="../img/lemon-style-azul-pp.png" id="lemonpp1"></p>
 </body>
 </html>
 <?php

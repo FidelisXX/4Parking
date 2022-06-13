@@ -124,13 +124,15 @@ border: #289ee7 3px solid;
     position: absolute;
     margin-top:15px;
     z-index: 0;
-    top: 75%;
+    top: 70%;
     left: 14%;
+    width: 20%;
 }
 #lemonG1{
     position: absolute;
     top: 25%;
     right:14%;
+    width: 23%;
     z-index: 0;
 }
 #lemonpp{
@@ -179,12 +181,12 @@ z-index: 1;
     color: #006494;
     z-index: 1;
 }
-  
+
   @media (max-width : 564px) {
     .container {
       flex-direction: column;
       align-items: flex-start;
-      max-width: 420px;
+     
     }
   
     label {
@@ -211,5 +213,106 @@ z-index: 1;
     #toggle:checked+.menu ul {
       display: block;
     }
-    
+    .divCentral2 {
+      position: absolute;
+      width: auto;
+      height: auto;
+      left: 29%;
+      top: 55%;
+      font-family: Arial, sans-serif;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center justify;
+      color: #006494;
+      z-index: 1;
+  }
+  .divCentral {
+    font-family: "BM HANNA_TTF","Arial";
+    position: absolute;
+width: auto;
+height: 1%;
+left: 18%;
+top: 12%;
+font-family: "BM HANNA_TTF","Arial","sans-serif";
+font-style: normal;
+font-size: 50px;
+line-height:50px;
+text-align: center;
+color: #13293D;
+z-index: 1;
+
+}
+
+#lemonG{
+  position: absolute;
+  margin-top:15px;
+  z-index: 0;
+  width: 35%;
+  top: 75%;
+  left: 14%;
+}
+#lemonG1{
+  position: absolute;
+  top: 25%;
+  right:14%;
+  width: 35%;
+  z-index: 0;
+}
+#lemonpp{
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  z-index: 0;
+  width: 15%;
+}
+#lemonpp1{
+  right: 6%;
+  position: absolute;
+  top:80%;
+  z-index: 0;
+  width: 15%;
+}
+
+#btBaixar{
+  position: absolute;
+width: 42%;
+height: 10%;
+left: 37%;
+top: 80%;
+background: #13293D;
+border-radius: 30px;
+box-shadow: 1px;
+font-family: "Mukta Vaani","Arial";
+color:#7FE2F8 ;
+font-weight: bold;
+font-size: 14px auto;
+text-align:center;
+z-index: 1;
+border: #289ee7 3px solid;
+}
+#btBaixar:hover{
+  transform: scale(1.1);
+  background: #006494;
+  border: 3px solid #13293D;
+  color: black;
+}
+
+#parceiro{
+  position: absolute;
+  font-size: larger;
+  border-radius: 15px;
+  border: 5px solid #000000;
+  background-color: #006494;
+  color: aliceblue;
+  top: 24%;
+  left: 3%;
+  width: 28%;
+  height: 16%;
+  z-index: 1;
+  justify-items: center;
+  
+}
+
+
 }}

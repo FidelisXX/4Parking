@@ -1,74 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/comprovante.js" defer></script>
-    <link rel="stylesheet" href="/css/pix.css">
+    <link rel="stylesheet" href="../css/pix.css">
     <title>Pix</title>
 </head>
+
 <body>
 
-<!--Esse html será apresentado na tela de pagamento-->
-     
-    <frame id="envie">
+    <!--Esse html será apresentado na tela de pagamento-->
+
+    <div id="envie">
 
         Envie o Pix para a chave a seguir e espere o retorno de seu pagamento para seguir a viagem<br>
         é rápidinho.<br><br><br>
         Chave pix: <h3>Email: 4Parking@gmail.com</h3><br>
+        <img src="../img/QRPix.jpeg" alt="" width="100px" height="100px"><br>
 
 
-       <form action="https://www.google.com/maps/dir/-8.1343273,-34.939636/Estapar+Estacionam
+        <form action="https://www.google.com/maps/dir/-8.1343273,-34.939636/Estapar+Estacionam
        entos+-+Pra%C3%A7a+Min.+Salgado+Filho,+S%2FN+-+Imbiribeira,+Recife+-+P
        E,+51210-010/@-8.1268876,-34.9437767,14z/data=!4m9!4m8!1m1!4e1!1m5!1m
        1!1s0x7ab1e374f701c11:0x53d59ff01b959f8!2m2!1d-34.9167451!2d-8.1310167">
 
-                <button type="text" id="pixPago" onclick="comprovantePix()">Pago</button>
+            <button type="text" id="pixPago" onclick="comprovantePix()">Pago</button>
 
-       </form>
-           
-        
-    </frame>
-   
+        </form>
 
 
+    </div>
 
-
-
-    
-
-
-
-
-
-
-
-
-    
     <a href="pagamento.html"><button>Voltar</button></a>
-    
 
-  
+
+
 </body>
+
 </html>
-
-<!--<input type="button" onclick="window.close()" value="Fechar janela" />
-
-<button onclick="window.close()">Fechar janela</button>
-
-<a href="javascript:void()" onclick="window.close()">Fechar janela</a>--> 
-
-
-
-
-
-<!--<script>
-    document.querySelectorAll('[wm-folder]').forEach(folder => {
-        folder.onclick = function(e){
-            const ul = folder.nextElementSibling
-            const d = ul.style.display
-            ul.style.display = d === 'none' ? 'block' : 'none'
-        }
-    })
-</script> -->
