@@ -17,8 +17,10 @@ $total = mysqli_num_rows($dados);
 
 <html>
 	<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/exibir_enderecos.css">
-
 	<title>Estacionamentos disponiveis</title>
 </head>
 <body>
@@ -94,4 +96,37 @@ mysqli_free_result($dados);
     thead {
 		padding: 15px;
 	}
+	#seguirBt{
+		position: absolute;
+            width: 10%;
+            height: 4%;
+            left: 1%;
+            top: auto;
+            background: #006494;
+            border-radius: 30px;
+            font-family: "Mukta Vaani", "Arial";
+            color: aliceblue;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+            border: 2px solid #7FE2F8;
+	}
+	@media(max-width: 564px){
+		#seguirBt{
+		position: absolute;
+            width: 30%;
+            height: 4%;
+            left: 10%;
+            top: auto;
+            background: #006494;
+            border-radius: 30px;
+            font-family: "Mukta Vaani", "Arial";
+            color: aliceblue;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+            border: 2px solid #7FE2F8;
+	}
+	}
+	
 </style>

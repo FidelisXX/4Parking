@@ -88,30 +88,31 @@ text-align: center;
 border: 2px solid #7FE2F8;
 }
 @media (max-width : 564px) {
-    #telaDebito{
-        position: relative;
-        height: auto;
-        width: 54%;
-        border-radius: 15px;
-        background: #13293D;
-        text-align: left;
-        border:solid 2px aliceblue;
-        left: 20%;
-        padding: 2%;
-        font-size: medium;
-        color: aliceblue;
-    }
+    
     input{
         border-radius: 5px;
         font-size: small;
-        width: 4%;
+        width: 60%;
+        top: 2%;
     }
     div{
         left: 30%;
     }
-
-
-
+#numeroCar{
+    top: 100%;
+}
+#telaCredito{
+    width: 100%;
+}
+#msg{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: left;
+    color: aliceblue;
+}
 
     
 }

@@ -85,4 +85,89 @@ button{
 #telaPix{
     width: 50%;
 }
+
+@media (max-width : 564px){
+    body{
+        background: aliceblue;
+    }
+    div{
+        padding: 5%;
+    }
+    #buttons{
+        position: absolute;
+        top:15%;
+        z-index: 2;
+        left:-15%;
+        padding: 3%;
+       
+    }
+    
+    #pix{
+    width: 120px;
+    height: 25px;
+    }
+    #debito{
+        width: 120px;
+    height: 25px;
+    }
+    #credito{
+        width: 120px;
+    height: 25px;
+    }
+    
+    button{
+        position: relative;
+        left: 45%;
+        background: aliceblue;
+        padding: 1%;
+        border-radius: 10px;
+        margin: 0.5%;
+        align-items: center;
+        justify-items: legacy;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #006494;
+    }
+    #titulo{
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 18px;
+        text-align: center justify;
+        color: #006494;
+    }
+    #lemonG{
+        position: absolute;
+        margin-top:15px;
+        z-index: -1;
+        top: 70%;
+        left: 14%;
+        width: 20%;
+    
+    }
+    #lemonG1{
+        position: absolute;
+        top: 25%;
+        right:14%;
+        width: 23%;
+        z-index: -1;
+    }
+    #lemonpp{
+        position: absolute;
+        top: 40%;
+        left: 6%;
+        z-index: -1;
+        
+    }
+    #lemonpp1{
+        right: 6%;
+        position: absolute;
+        top:80%;
+        z-index: -1;
+    }
+    #telaPix{
+        width: 50%;
+    }
+}
+
 }
