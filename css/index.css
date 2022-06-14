@@ -1,36 +1,37 @@
-@media screen{
-body{
-  background: aliceblue;
-}
+@media screen {
+  body {
+    background: aliceblue;
+  }
 
-.container {
+  .container {
     margin: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     z-index: 1;
   }
-  
+
   a {
     color: white;
     text-decoration: none;
   }
-  
-  a:hover{
+
+  a:hover {
     color: #7FE2F8;
   }
+
   li {
     list-style: none;
   }
-  
+
   .nav {
     background: #90cf1a;
     background: -webkit-linear-gradient(to right, #030303, #000000);
     background: linear-gradient(to right, #000000, #289ee7);
     width: 100%;
-   /* min-height: 8%;*/
+    /* min-height: 8%;*/
     z-index: 3;
-    top:0;
+    top: 0;
     margin: 0;
     position: absolute;
   }
@@ -38,7 +39,7 @@ body{
   #toggle {
     display: none;
   }
-  
+
   label {
     color: white;
     cursor: pointer;
@@ -47,18 +48,19 @@ body{
     right: 10px;
     display: none;
   }
-  
+
   /*flex box*/
   .menu ul {
     display: flex;
   }
-  
+
   .menu ul li {
     margin: 0 30px;
     cursor: pointer;
     font-weight: bold;
   }
-  #logo{
+
+  #logo {
     color: rgb(245, 241, 241);
     font-family: Arial, Helvetica, sans-serif, solid;
     position: relative;
@@ -67,14 +69,17 @@ body{
     top: 5%;
     left: 2px;
     z-index: 1;
-}
-header{
+  }
+
+  header {
     left: 0;
-}
-header .container{
+  }
+
+  header .container {
     justify-content: space-between;
-}
-#parceiro{
+  }
+
+  #parceiro {
     position: absolute;
     font-size: larger;
     border-radius: 15px;
@@ -87,86 +92,92 @@ header .container{
     height: 16%;
     z-index: 1;
     justify-items: center;
-    
-}
 
-#parceiro:hover{
+  }
+
+  #parceiro:hover {
     transform: scale(1.1);
     background: #13293D;
     border: 5px solid aliceblue;
     color: #7FE2F8;
-}
-#btBaixar{
+  }
+
+  #btBaixar {
     position: absolute;
-width: 22%;
-height: 8%;
-left: 41%;
-top: 80%;
-background: #13293D;
-border-radius: 30px;
-box-shadow: 1px;
-font-family: "Mukta Vaani","Arial";
-color:#7FE2F8 ;
-font-weight: bold;
-font-size: 14px auto;
-text-align:center;
-z-index: 1;
-border: #289ee7 3px solid;
-}
-#btBaixar:hover{
+    width: 22%;
+    height: 8%;
+    left: 41%;
+    top: 80%;
+    background: #13293D;
+    border-radius: 30px;
+    box-shadow: 1px;
+    font-family: "Mukta Vaani", "Arial";
+    color: #7FE2F8;
+    font-weight: bold;
+    font-size: 14px auto;
+    text-align: center;
+    z-index: 1;
+    border: #289ee7 3px solid;
+  }
+
+  #btBaixar:hover {
     transform: scale(1.1);
     background: #006494;
     border: 3px solid #13293D;
     color: black;
-}
+  }
 
-#lemonG{
+  #lemonG {
     position: absolute;
-    margin-top:15px;
+    margin-top: 15px;
     z-index: 0;
     top: 70%;
     left: 14%;
     width: 20%;
-}
-#lemonG1{
+  }
+
+  #lemonG1 {
     position: absolute;
     top: 25%;
-    right:14%;
+    right: 14%;
     width: 23%;
     z-index: 0;
-}
-#lemonpp{
+  }
+
+  #lemonpp {
     position: absolute;
     top: 40%;
     left: 6%;
     z-index: 0;
-    
-}
-#lemonpp1{
+
+  }
+
+  #lemonpp1 {
     right: 6%;
     position: absolute;
-    top:80%;
+    top: 80%;
     z-index: 0;
-}
-.divCentral {
-    font-family: "BM HANNA_TTF","Arial";
+  }
+
+  .divCentral {
+    font-family: "BM HANNA_TTF", "Arial";
     position: absolute;
-width: auto;
-height: 1%;
-left: 36%;
-top: 12%;
-font-family: "BM HANNA_TTF","Arial","sans-serif";
-font-style: normal;
-font-weight: 300;
-font-size: 100px;
-line-height:120px;
-text-align: center;
-color: #13293D;
-z-index: 1;
+    width: auto;
+    height: 1%;
+    left: 36%;
+    top: 12%;
+    font-family: "BM HANNA_TTF", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 120px;
+    text-align: center;
+    color: #13293D;
+    z-index: 1;
 
-}
+  }
 
-.divCentral2 {
+  .divCentral2 {
     position: absolute;
     width: auto;
     height: auto;
@@ -180,39 +191,40 @@ z-index: 1;
     text-align: center justify;
     color: #006494;
     z-index: 1;
-}
+  }
 
   @media (max-width : 564px) {
     .container {
       flex-direction: column;
       align-items: flex-start;
-     
+
     }
-  
+
     label {
       display: block;
       cursor: pointer;
     }
-  
+
     .menu {
       width: 100%;
     }
-  
+
     .menu ul {
       flex-direction: column;
       display: none;
       text-align: center;
     }
-  
+
     .menu ul li {
       margin: 10px 0;
       line-height: 20px;
     }
-  
+
     /*mandiga css*/
     #toggle:checked+.menu ul {
       display: block;
     }
+
     .divCentral2 {
       position: absolute;
       width: auto;
@@ -226,93 +238,99 @@ z-index: 1;
       text-align: center justify;
       color: #006494;
       z-index: 1;
+    }
+
+    .divCentral {
+      font-family: "BM HANNA_TTF", "Arial";
+      position: absolute;
+      width: auto;
+      height: 1%;
+      left: 18%;
+      top: 12%;
+      font-family: "BM HANNA_TTF", "Arial", "sans-serif";
+      font-style: normal;
+      font-size: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #13293D;
+      z-index: 1;
+
+    }
+
+    #lemonG {
+      position: absolute;
+      margin-top: 15px;
+      z-index: 0;
+      width: 35%;
+      top: 75%;
+      left: 14%;
+    }
+
+    #lemonG1 {
+      position: absolute;
+      top: 25%;
+      right: 14%;
+      width: 35%;
+      z-index: 0;
+    }
+
+    #lemonpp {
+      position: absolute;
+      top: 40%;
+      left: 6%;
+      z-index: 0;
+      width: 15%;
+    }
+
+    #lemonpp1 {
+      right: 6%;
+      position: absolute;
+      top: 80%;
+      z-index: 0;
+      width: 15%;
+    }
+
+    #btBaixar {
+      position: absolute;
+      width: 42%;
+      height: 10%;
+      left: 37%;
+      top: 80%;
+      background: #13293D;
+      border-radius: 30px;
+      box-shadow: 1px;
+      font-family: "Mukta Vaani", "Arial";
+      color: #7FE2F8;
+      font-weight: bold;
+      font-size: 14px auto;
+      text-align: center;
+      z-index: 1;
+      border: #289ee7 3px solid;
+    }
+
+    #btBaixar:hover {
+      transform: scale(1.1);
+      background: #006494;
+      border: 3px solid #13293D;
+      color: black;
+    }
+
+    #parceiro {
+      position: absolute;
+      font-size: larger;
+      border-radius: 15px;
+      border: 5px solid #000000;
+      background-color: #006494;
+      color: aliceblue;
+      top: 24%;
+      left: 3%;
+      width: 28%;
+      height: 16%;
+      z-index: 1;
+      justify-items: center;
+
+    }
+
+
   }
-  .divCentral {
-    font-family: "BM HANNA_TTF","Arial";
-    position: absolute;
-width: auto;
-height: 1%;
-left: 18%;
-top: 12%;
-font-family: "BM HANNA_TTF","Arial","sans-serif";
-font-style: normal;
-font-size: 50px;
-line-height:50px;
-text-align: center;
-color: #13293D;
-z-index: 1;
-
 }
-
-#lemonG{
-  position: absolute;
-  margin-top:15px;
-  z-index: 0;
-  width: 35%;
-  top: 75%;
-  left: 14%;
-}
-#lemonG1{
-  position: absolute;
-  top: 25%;
-  right:14%;
-  width: 35%;
-  z-index: 0;
-}
-#lemonpp{
-  position: absolute;
-  top: 40%;
-  left: 6%;
-  z-index: 0;
-  width: 15%;
-}
-#lemonpp1{
-  right: 6%;
-  position: absolute;
-  top:80%;
-  z-index: 0;
-  width: 15%;
-}
-
-#btBaixar{
-  position: absolute;
-width: 42%;
-height: 10%;
-left: 37%;
-top: 80%;
-background: #13293D;
-border-radius: 30px;
-box-shadow: 1px;
-font-family: "Mukta Vaani","Arial";
-color:#7FE2F8 ;
-font-weight: bold;
-font-size: 14px auto;
-text-align:center;
-z-index: 1;
-border: #289ee7 3px solid;
-}
-#btBaixar:hover{
-  transform: scale(1.1);
-  background: #006494;
-  border: 3px solid #13293D;
-  color: black;
-}
-
-#parceiro{
-  position: absolute;
-  font-size: larger;
-  border-radius: 15px;
-  border: 5px solid #000000;
-  background-color: #006494;
-  color: aliceblue;
-  top: 24%;
-  left: 3%;
-  width: 28%;
-  height: 16%;
-  z-index: 1;
-  justify-items: center;
-  
-}
-
-
-}}

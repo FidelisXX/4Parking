@@ -1,297 +1,320 @@
-*{
-    box-sizing: border-box;
- }
- @media screen {
-
-html, body{
-    background-color: azure;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    min-width:312px;
-    max-width: 564px;
-    min-height: 474px;
-    justify-content: center;
-    align-items: center;
-
-}
-#logoCadastro{
- width: 50%;
-position: absolute;
-height: auto;
-left: 27%;
-top: 7%;
-font-family: "Mukta Vaani";
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 80px;
-text-align: center;
-color: #13293D;
-}
-
-#cadastroText{
-position: absolute;
-width: 50%;
-height: 2%;
-left: 27%;
-top: 19%;
-font-family: "Mukta Vaani";
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 20px;
-text-align: center;
-color: #816464;
-}
-#cadastreGmail{
-    position: absolute;
-width: auto;
-height: auto;
-left: 30%;
-top: 34%;
-background: #006494;
-border-radius: 30px;
-font-family: "Mukta Vaani","Arial";
-color: aliceblue;
-font-weight: bold;
-font-size: 14px;
-line-height:30px;
-text-align: center;
-border: 2px solid #7FE2F8;
-}
-#cadastreGmail:hover{
-    background: #13293D;
-border: 3px solid #7FE2F8;
-}
-#line{
-    position: absolute;
-    top: 43%;
-font-size: 15px;
-color: rgb(131, 131, 131);
-width: 58%;
-left: 23%;
-text-align: center;
-}
-
-#formularioUsuario{
-    position: absolute;
-    color: #006494;
-    font-family: "Mukta Vaani";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 25px;
-    width: 55%;
-    height: auto;
-    left: 30%;
-    top: 60%;
-    z-index: 2;
-    
-}
-input{
-    font-size: small;
-    right: auto;
-    width: 99%;
-    height: 10%;
-    left: auto;
-border-radius: 5px;
-box-shadow: 1px;
-border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-    z-index: 2;
-
-}
-#qualTeuNometxtB{
-    font-size: x-small;
-
-}
-
-.dia{
-    position: absolute;
-    width: 5%; 
-    height: 10%;
-    left: 0;
-    top: auto;
-    z-index: 2;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-    border-radius: 5px;
-box-shadow: 1px;
-line-height: 3%;
-}
-
-.mes{
-    position: absolute;
-    width: 5%;
-    height: 10%;
-    left: 6%;
-    top: auto;
-    z-index: 2;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-    border-radius: 5px;
-box-shadow: 1px;
-line-height: 3%;
-}
-
-.ano{
-    position: absolute;
-    width: 7%;
-    height: 10%;
-    left: 12%;
-    top: auto;
-    z-index: 4;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-    border-radius: 5px;
-box-shadow: 1px;
-line-height: 3%;
-}
-.genero{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: auto;
-    top: 235%;
-    color:#699099 ;
-    font-family: "Mukta Vaani";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: auto;
-}
-#masculino{
-    position: absolute;
-    width: 6%;
-    height: 6%;
-    left: -4%;
-    top: 85%;
-    z-index: 4;
-    border: 2px solid #7FE2F8;
+* {
     box-sizing: border-box;
 }
-#mtxt{
-    color:#699099;
-    position: absolute;
-    font-size: medium;
-width: auto;
-height: auto;
-left: 6%;
-top: auto;
-z-index: 5;
-}
-#feminino{
-    position: absolute;
-    width: 6%;
-    height: 6%;
-    left: -4%;
-    top: 88%;
-    z-index: 4;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-}
-#ftxt{
-    visibility:visible;
-    color:#699099;
-    position: absolute;
-    font-size: medium;
-width: auto;
-height: auto;
-left: 6%;
-top: auto;
-z-index: 5;
-}
-#naoBinario{
-    position: absolute;
-    width: 6%;
-    height: 6%;
-    left: -4%;
-    top: 91%;
-    z-index: 4;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-}
-#btxt{
-    visibility:visible;
-    color:#699099;
-    position: absolute;
-    font-size: medium;
-width: auto;
-height: auto;
-left: 6%;
-top: 93%;
-z-index: 5;
-}
-#naoDizer{
-    position: absolute;
-    width: 6%;
-    height: 6%;
-    left:-4%;
-    top: auto;
-    z-index: 4;
-    border: 1px solid #7FE2F8;
-    box-sizing: border-box;
-}
-#ntxt{
-    visibility:visible;
-    color:#699099;
-    position: absolute;
-    font-size: medium;
-width: auto;
-height: 1%;
-left: 6%;
-top: 97%;
-z-index: 5;
-}
-#seguirBt{
-    position: absolute;
-    width: 30%;
-    height: 4%;
-    left: 30%;
-    top: auto;
-    background:#006494;
-    border-radius: 30px;
-    font-family: "Mukta Vaani","Arial";
-color: aliceblue;
-font-weight: bold;
-font-size: small;
-text-align: center;
-border: 2px solid #7FE2F8;
-}
-#seguirBt:hover{
-    background: #13293D;
-border: 3px solid #7FE2F8;
-}
-#lemonpp{
-    position: absolute;
-    margin-top:15px;
-    width:16%;
-    z-index: 0;
-    top: 130%;
-    left: 13%;
-}
-#lemonpp1{
-    position: absolute;
-    top: 80%;
-    width:16%;
-    right:-3%;
-    z-index: 0;
-}
-#lemonG{
-    position: absolute;
-    top: 9%;
-    width:21%;
-    left: 4%;
-    z-index: 0;
-    
-}
-#lemonG1{
-    right: 6%;
-    position: absolute;
-    width:24%;
-    top:160%;
-    z-index: 0;
-}
+
+@media screen {
+
+    html,
+    body {
+        background-color: azure;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 312px;
+        max-width: 564px;
+        min-height: 474px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #logoCadastro {
+        width: 50%;
+        position: absolute;
+        height: auto;
+        left: 27%;
+        top: 7%;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 80px;
+        text-align: center;
+        color: #13293D;
+    }
+
+    #cadastroText {
+        position: absolute;
+        width: 50%;
+        height: 2%;
+        left: 27%;
+        top: 19%;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #816464;
+    }
+
+    #cadastreGmail {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 30%;
+        top: 34%;
+        background: #006494;
+        border-radius: 30px;
+        font-family: "Mukta Vaani", "Arial";
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        border: 2px solid #7FE2F8;
+    }
+
+    #cadastreGmail:hover {
+        background: #13293D;
+        border: 3px solid #7FE2F8;
+    }
+
+    #line {
+        position: absolute;
+        top: 43%;
+        font-size: 15px;
+        color: rgb(131, 131, 131);
+        width: 58%;
+        left: 23%;
+        text-align: center;
+    }
+
+    #formularioUsuario {
+        position: absolute;
+        color: #006494;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        width: 55%;
+        height: auto;
+        left: 30%;
+        top: 60%;
+        z-index: 2;
+
+    }
+
+    input {
+        font-size: small;
+        right: auto;
+        width: 99%;
+        height: 10%;
+        left: auto;
+        border-radius: 5px;
+        box-shadow: 1px;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+        z-index: 2;
+
+    }
+
+    #qualTeuNometxtB {
+        font-size: x-small;
+
+    }
+
+    .dia {
+        position: absolute;
+        width: 5%;
+        height: 10%;
+        left: 0;
+        top: auto;
+        z-index: 2;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 1px;
+        line-height: 3%;
+    }
+
+    .mes {
+        position: absolute;
+        width: 5%;
+        height: 10%;
+        left: 6%;
+        top: auto;
+        z-index: 2;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 1px;
+        line-height: 3%;
+    }
+
+    .ano {
+        position: absolute;
+        width: 7%;
+        height: 10%;
+        left: 12%;
+        top: auto;
+        z-index: 4;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 1px;
+        line-height: 3%;
+    }
+
+    .genero {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: auto;
+        top: 235%;
+        color: #699099;
+        font-family: "Mukta Vaani";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: auto;
+    }
+
+    #masculino {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        left: -4%;
+        top: 85%;
+        z-index: 4;
+        border: 2px solid #7FE2F8;
+        box-sizing: border-box;
+    }
+
+    #mtxt {
+        color: #699099;
+        position: absolute;
+        font-size: medium;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: auto;
+        z-index: 5;
+    }
+
+    #feminino {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        left: -4%;
+        top: 88%;
+        z-index: 4;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+    }
+
+    #ftxt {
+        visibility: visible;
+        color: #699099;
+        position: absolute;
+        font-size: medium;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: auto;
+        z-index: 5;
+    }
+
+    #naoBinario {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        left: -4%;
+        top: 91%;
+        z-index: 4;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+    }
+
+    #btxt {
+        visibility: visible;
+        color: #699099;
+        position: absolute;
+        font-size: medium;
+        width: auto;
+        height: auto;
+        left: 6%;
+        top: 93%;
+        z-index: 5;
+    }
+
+    #naoDizer {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        left: -4%;
+        top: auto;
+        z-index: 4;
+        border: 1px solid #7FE2F8;
+        box-sizing: border-box;
+    }
+
+    #ntxt {
+        visibility: visible;
+        color: #699099;
+        position: absolute;
+        font-size: medium;
+        width: auto;
+        height: 1%;
+        left: 6%;
+        top: 97%;
+        z-index: 5;
+    }
+
+    #seguirBt {
+        position: absolute;
+        width: 30%;
+        height: 4%;
+        left: 30%;
+        top: auto;
+        background: #006494;
+        border-radius: 30px;
+        font-family: "Mukta Vaani", "Arial";
+        color: aliceblue;
+        font-weight: bold;
+        font-size: small;
+        text-align: center;
+        border: 2px solid #7FE2F8;
+    }
+
+    #seguirBt:hover {
+        background: #13293D;
+        border: 3px solid #7FE2F8;
+    }
+
+    #lemonpp {
+        position: absolute;
+        margin-top: 15px;
+        width: 16%;
+        z-index: 0;
+        top: 130%;
+        left: 13%;
+    }
+
+    #lemonpp1 {
+        position: absolute;
+        top: 80%;
+        width: 16%;
+        right: -3%;
+        z-index: 0;
+    }
+
+    #lemonG {
+        position: absolute;
+        top: 9%;
+        width: 21%;
+        left: 4%;
+        z-index: 0;
+
+    }
+
+    #lemonG1 {
+        right: 6%;
+        position: absolute;
+        width: 24%;
+        top: 160%;
+        z-index: 0;
+    }
 
 }
