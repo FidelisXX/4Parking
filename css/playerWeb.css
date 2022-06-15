@@ -194,6 +194,7 @@ z-index: 1;
 #lon{
   display: none;
 }
+/*Mobile transformation*/
 @media (max-width : 564px){
   #popUp{
   top: 8%;

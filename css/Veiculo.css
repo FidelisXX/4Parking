@@ -184,6 +184,7 @@ z-index: 1;
     top:10%;
     z-index: 0;
 }
+/*Mobile transformation*/
 @media(max-width: 564px){
     html, body{
         background: aliceblue;

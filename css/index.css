@@ -192,7 +192,7 @@
     color: #006494;
     z-index: 1;
   }
-
+    /*Mobile transformation*/
   @media (max-width : 564px) {
     .container {
       flex-direction: column;
@@ -220,7 +220,7 @@
       line-height: 20px;
     }
 
-    /*mandiga css*/
+    /*css transformation*/
     #toggle:checked+.menu ul {
       display: block;
     }

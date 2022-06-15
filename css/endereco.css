@@ -76,6 +76,7 @@
         background: #13293D;
         border: 3px solid #7FE2F8;
     }
+            /*Mobile transformation*/
     @media(max-width:564px){
         
         body {

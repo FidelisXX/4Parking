@@ -286,7 +286,7 @@
         z-index: 0;
     }
     
-    
+    /*Mobile transformation*/
 @media (max-width: 564px){
     #logoCadastro {
         width: 50%;

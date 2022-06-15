@@ -122,7 +122,7 @@ a{
     top: 80%;
     z-index: -1;
   }
-
+    /*Mobile transformation*/
 @media (max-width:564px){
      body{
         background: aliceblue;

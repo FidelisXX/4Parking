@@ -92,7 +92,7 @@
         text-align: center;
         border: 2px solid #7FE2F8;
     }
-
+        /*Mobile transformation*/
     @media (max-width : 564px) {
 
         input {

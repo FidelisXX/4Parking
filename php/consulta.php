@@ -12,7 +12,7 @@ $conn = $mysqli -> query($consulta) or die($mysqli->error);
     <title>Document</title>
 </head>
 <body>
-   
+   <!--Find the data in the database-->
     <?php  while($dados=$conn ->fetch_array()){ ?>
 <tr>
   <td>  <?php echo $dados["nome_usu"]; ?> </td>

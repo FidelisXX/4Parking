@@ -85,7 +85,7 @@ button{
 #telaPix{
     width: 50%;
 }
-
+/*Mobile transformation*/
 @media (max-width : 564px){
     body{
         background: aliceblue;
