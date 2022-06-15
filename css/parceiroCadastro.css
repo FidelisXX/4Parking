@@ -106,6 +106,16 @@ option{
     height: auto;
     top: 94%;
 }
+#Txtagencia, #Txtconta{
+    position: relative;
+    top: auto;
+    z-index: 3;
+}
+#agencia, #conta{
+    top: auto;
+    height: 5%;
+    position: relative;
+}
 #btCadastrar{
     position: absolute;
         width: 30%;
