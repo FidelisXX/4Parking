@@ -14,7 +14,10 @@
         justify-content: center;
         align-items: center;
     }
-
+a{
+    text-decoration: none;
+    color: #13293D;
+}
 #logoCadastro {
     width: 50%;
 position: absolute;
@@ -198,6 +201,10 @@ z-index: 1;
         align-items: center;
     }
 
+    a{
+        text-decoration: none;
+        color: #13293D;
+    }
 #logoCadastro {
     width: 50%;
 position: absolute;

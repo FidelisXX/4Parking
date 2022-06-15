@@ -14,6 +14,10 @@ body{
     background: aliceblue;
     
 }
+a{
+    text-decoration: none;
+    color: #13293D;
+}
 #logoCadastro {
     width: 50%;
 position: absolute;
@@ -26,7 +30,7 @@ font-weight: bold;
 font-size: 38px;
 line-height: 80px;
 text-align: center;
-color: #060606;
+color: #006494;
 }
 #boasVindas{
     position: absolute;
@@ -149,6 +153,10 @@ option{
 }
 /*Mobile transformation*/
 @media (max-width: 564px){
+    a{
+        text-decoration: none;
+        color: #13293D;
+    }
     #logoCadastro {
         width: 50%;
     position: absolute;
@@ -161,7 +169,7 @@ option{
     font-size: 34px;
     line-height: 80px;
     text-align: center;
-    color: #060606;
+    color: #006494;
     }
     #boasVindas{
         position: absolute;
@@ -177,12 +185,18 @@ option{
     height: auto;
     left: 36%;
     top: 45%;
-    color:#715ebd;
+    color:#006494;
     font-family: "Mukta Vaani";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 30px;
+    z-index: 3;
+    }
+    #agencia, #conta{
+        position: relative;
+        top: auto;
+        z-index: 3;
     }
     input{
         position: absolute;
@@ -234,7 +248,7 @@ option{
         height: 4%;
         left: 33%;
         top:auto;
-        background:#715ebd;
+        background:#006494;
         border-radius: 30px;
         font-family: "Mukta Vaani","Arial";
     color: aliceblue;

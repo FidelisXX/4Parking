@@ -7,6 +7,10 @@
     body{
         background-color: aliceblue;
     }
+    a{
+        text-decoration: none;
+        color: #13293D;
+    }
     #logoCadastro{
      width: 50%;
     position: absolute;
@@ -288,6 +292,10 @@
     
     /*Mobile transformation*/
 @media (max-width: 564px){
+    a{
+        text-decoration: none;
+        color: #13293D;
+    }
     #logoCadastro {
         width: 50%;
         position: absolute;
@@ -365,7 +373,6 @@
         z-index: 2;
 
     }
-
     input {
         font-size: small;
         right: auto;
