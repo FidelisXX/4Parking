@@ -10,7 +10,7 @@ Para nossos parceiros(estacionamentos) buscamos propor uma experiência única, 
 
   #REQUISITOS E TECNOLOGIAS UTILIZADAS NO SISTEMA
   
-- PHP5
+- PHP
 - MySQL
 - Xammp
 - HTML5
