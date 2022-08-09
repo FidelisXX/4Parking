@@ -5,7 +5,7 @@
   #### PROPOSTA
   
 - Tendo como objetivo geral facilitar o dia a dia das pessoas que trafegam pelas ruas da Região Metropolitana do Recife(RMR) e precisam deixar seus veículos estacionados por horas em locais ditos popularmente de "risco", estacionamentos clandestinos ou até mesmo não conseguindo encontrar estacionamentos em determinados lugares, festas de modo geral. Temos o objetivo de atender a este público, dar a possibilidade de encontrar e escolher uma vaga mesmo antes de sair de casa, trazendo conforto, economia e principalmente segurança. Contando com formas de pagamento 100% eficazes e virtuais como Crédito e Pix.
-Para nossos parceiros(estacionamentos) buscamos propor uma experiência única, lucrativa e definitivamente efetiva, criando possibilidades de parcerias empresariais, ou até mesmo pessoais para quem tem um espaço ou uma garagem que não utiliza conseguir disponibiliza-lá conosco e ganhar uma renda extra ao fim do mês.
+Para nossos parceiros(estacionamentos) buscamos propor uma experiência única, lucrativa e definitivamente efetiva, criando possibilidades de parcerias empresariais, ou até mesmo pessoais, para quem tem um espaço ou uma garagem que não utiliza conseguir disponibiliza-lá conosco e ganhar uma renda extra ao fim do mês.
 
 
   #REQUISITOS E TECNOLOGIAS UTILIZADAS NO SISTEMA
